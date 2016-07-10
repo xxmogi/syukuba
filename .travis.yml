@@ -13,6 +13,6 @@ env:
   - secure: f55wnFcjyzSdhRVdc/xYZl8DN8rynHBxIw4dtMF5ubmRrd/svqhkyGMMepAxxtY2aEwZNHnTMb6s+7cptKip0vewm0hP7pTfRW32fx3FOqjLu09JRS1djdSAaUtEKZ7VRwPxYd2x95jnQ2RIbcxp80S0oMwLci0H6IAjQCtHAGhb3RY11d1PwStiN9Gai9V3SenDH8jmJnlk5fed73lzwY04a0hGUwxELh213yQM4LDWzo8S99wNF1y4I46P/J5+cwhyjSuJzj4Y5WvRYJz32EIJ9H1e7SVs/xo1hsn+Mi02Y5FEHJA9Zv5eOi7oGGsk2mLeDoQy31pLnIu+Oz7W+4i1CNitCxlGduJkUyP2Kj319/2h7QlO7AwrjNCaqEPNQO/uBYJoWwwG2ZKWEAIDrarwaGvc54eJ/X6YHMTu7994LSRzpKUzD4pGcWIWi8rgN6J9vUEPYcuLDoBpQRaGnWmHUhzmzGtlmzB9DuFLS6Yp1xRHFvw9OqmjkLnCXQJZ9zyqhfSPKzJJgTIyPuM4EFt4EK3kUN2mS4rardVEVNiM94ZGqAnOxpuIREzaJGyPpdQEgd2YQ4bQlV+1LahhLMoFY3Ru6wPsUe9NLXl0Ci2Dwx+B5gdRGkQJ8ObftBgFe1qg0hR2suQqwhTiGJ08NYysYhTap7b391z3sCehm2M=
 after_success:
     - if [[ "$TRAVIS_BRANCH" == "master" ]]; then
-        export SSHPATH=$DEPLOY_PASS;
+        export SSHPASS=$DEPLOY_PASS;
         sshpass -e ssh -o "StrictHostKeyChecking"=no $DEPLOY_USER@$DEPLOY_HOST /home/syukuba/deploy.sh ;
       fi
