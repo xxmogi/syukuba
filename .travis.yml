@@ -2,9 +2,10 @@ language: node_js
 sudo: false
 script:
 - echo "start"
-before_install:
-- sudo apt-get update -qq
-- sudo apt-get install -qq sshpass
+addons:
+    apt:
+        packages:
+            - sshpass
 env:
   global:
   - secure: qDItaOn9dzB4fZUjIdUB12GYIVIubU4LbQbYAPD17UYC0WKdN/zHykxI8vImq2CPVsrrGJbdzoMyyc2r9P6VcJXkIdVgBRROvQhTsmKJGYe3i65MGDWSQxxGnq0B9Y8QYJrCRZ9eylDr/L4jdT0rvMpSzipHhyF+Es1V1w7yTqLQsN5i+M1s5vZiW1z6oekC5qB4OLeITWu27FuCNXqA4aacJ+rgi8NiLpQC5xuh+/jGsi5LAeDBeUHix2GFLsTt2CsFCyKilPJVMv4alAIvyGlmq5bbtWAIz4eNSpJaQggeev/Xl0IpekQXqDKreeMWoREfJkVbKl3D/qwCmdsYBXo95GHPOxJ3K4+OFMXuLIuk9xjtnLP1fvgrRNIrCQJFNyF0DQlOEXZnr4n62Z92WNnBxXiQMhEZZ0L0KxTBCP/RQLSAhNF7rS1TeUiYj9ioxAFcB9F18DqcY1vJJDyLx9HBvT6+r9W7OEbCTNw2JRTw4/z6TTwOyOCoLjeNnPFygKhXMyf12wDSHeuXCLdO5CQOptGLR3wybNjHb39MMV1r3sVn7ZoB9Qz5pPX3cVj9Gqbi8hVGIc/PZjHJM+c9Y4rzGYNRpYNFWrYpUJDfV74XqE547jfHZ6CvkkMjnmMPF4TC4AhGIKucNBMuKytTEXyq8riN4rmXfnqK1Ufa3pg=
