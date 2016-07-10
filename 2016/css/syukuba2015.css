@@ -1,0 +1,258 @@
+@charset "Shift_JIS";
+
+/*　メニュー　*/
+
+/* メニュータイル1 */
+div.Tile
+{
+		position               : relative;
+		height                 : 400px;
+		width                  : 400px;
+//		background-color: #38A3DB;
+		margin: 0px;
+		float                  : left;
+		font-family            : Meiryo UI;
+		-webkit-transform      : scale(1.1, 1.1);
+		font-size              : 25pt;
+		color                  : White;
+		border-style           : solid;
+}
+
+div.Tile:hover
+{
+		-webkit-transform          : scale(1.1, 1.1);
+		/* IEの場合は -ms-transform: scale(1.1, 1.1); */
+		background-image           : url("white_vpvot.png");
+		background-repeat          : no-repeat;
+		background-position        : right top;
+		opacity                    : 0.75;
+}
+
+span.TileTitle
+{
+		position   : absolute;
+		bottom     : 30;
+		left       : 0;
+		font-family: Meiryo UI;
+		font-size  : 40pt;
+		color      : White;
+}
+
+span.TileContents
+{
+		position   : absolute;
+		padding    : 10px;
+		top        : 10%;
+		font-family: Meiryo UI;
+		font-size  : 24pt;
+		color      : White;
+}
+
+/* メニュータイル2(half) */
+div.Tile2
+{
+		position               : relative;
+		height                 : 200px;
+		width                  : 400px;
+//		background-color: #38A3DB;
+		margin: 0px;
+		float                  : left;
+		font-family            : Meiryo UI;
+		-webkit-transform      : scale(1.1, 1.1);
+		font-size              : 25pt;
+		color                  : White;
+		border-style           : solid;
+}
+
+div.Tile2:hover
+{
+		-webkit-transform          : scale(1.1, 1.1);
+		/* IEの場合は -ms-transform: scale(1.1, 1.1); */
+		background-image           : url("white_vpvot.png");
+		background-repeat          : no-repeat;
+		background-position        : right top;
+		opacity                    : 0.75;
+}
+
+
+/* 見出し */
+.headline_red {
+		font-size  :40px;             /* 文字の大きさ */
+		background :url(../images/head/head017_01.png) no-repeat;
+		line-height:40px;             /* 行の高さ */
+		padding    :0 0 0 20px;       /* 文字周りの余白（上 右 下 左px） */
+		margin     :30px 0 20px;      /* 画像周りの余白（上 左右 下px） */
+}
+
+.headline_orange {
+		font-size  :40px;             /* 文字の大きさ */
+		background :url(../images/head/head017_02.png) no-repeat;
+		line-height:40px;             /* 行の高さ */
+		padding    :0 0 0 20px;       /* 文字周りの余白（上 右 下 左px） */
+		margin     :30px 0 20px;      /* 画像周りの余白（上 左右 下px） */
+}
+
+.headline_yellow {
+		font-size  :40px;             /* 文字の大きさ */
+		background :url(../images/head/head017_03.png) no-repeat;
+		line-height:40px;             /* 行の高さ */
+		padding    :0 0 0 20px;       /* 文字周りの余白（上 右 下 左px） */
+		margin     :30px 0 20px;      /* 画像周りの余白（上 左右 下px） */
+}
+
+.headline_green {
+		font-size  :40px;             /* 文字の大きさ */
+		background :url(../images/head/head017_04.png) no-repeat;
+		line-height:40px;             /* 行の高さ */
+		padding    :0 0 0 20px;       /* 文字周りの余白（上 右 下 左px） */
+		margin     :30px 0 20px;      /* 画像周りの余白（上 左右 下px） */
+}
+
+.headline_lblue {
+		font-size  :40px;             /* 文字の大きさ */
+		background :url(../images/head/head017_05.png) no-repeat;
+		line-height:40px;             /* 行の高さ */
+		padding    :0 0 0 20px;       /* 文字周りの余白（上 右 下 左px） */
+		margin     :30px 0 20px;      /* 画像周りの余白（上 左右 下px） */
+}
+
+.headline_blue {
+		font-size  :40px;             /* 文字の大きさ */
+		background :url(../images/head/head017_06.png) no-repeat;
+		line-height:40px;             /* 行の高さ */
+		padding    :0 0 0 20px;       /* 文字周りの余白（上 右 下 左px） */
+		margin     :30px 0 20px;      /* 画像周りの余白（上 左右 下px） */
+}
+
+.headline_purple {
+		font-size  :40px;             /* 文字の大きさ */
+		background :url(../images/head/head017_07.png) no-repeat;
+		line-height:40px;             /* 行の高さ */
+		padding    :0 0 0 20px;       /* 文字周りの余白（上 右 下 左px） */
+		margin     :30px 0 20px;      /* 画像周りの余白（上 左右 下px） */
+}
+
+.headline_pink {
+		font-size  :40px;             /* 文字の大きさ */
+		background :url(../images/head/head017_08.png) no-repeat;
+		line-height:40px;             /* 行の高さ */
+		padding    :0 0 0 20px;       /* 文字周りの余白（上 右 下 左px） */
+		margin     :30px 0 20px;      /* 画像周りの余白（上 左右 下px） */
+}
+
+.headline_gray {
+		font-size  :40px;             /* 文字の大きさ */
+		background :url(../images/head/head017_09.png) no-repeat;
+		line-height:40px;             /* 行の高さ */
+		padding    :0 0 0 20px;       /* 文字周りの余白（上 右 下 左px） */
+		margin     :30px 0 20px;      /* 画像周りの余白（上 左右 下px） */
+}
+
+.headline_black {
+		font-size  :40px;             /* 文字の大きさ */
+		background :url(../images/head/head017_10.png) no-repeat;
+		line-height:40px;             /* 行の高さ */
+		padding    :0 0 0 20px;       /* 文字周りの余白（上 右 下 左px） */
+		margin     :30px 0 20px;      /* 画像周りの余白（上 左右 下px） */
+}
+
+/* whats new */
+.whats_new_red {
+		font-size  :40px;             /* 文字の大きさ */
+		background :url(../images/new/new017_06.gif) no-repeat;
+		line-height:30px;             /* 行の高さ */
+		padding    :0 20px 20px 20px; /* 文字周りの余白（上 右 下 左px） */
+		margin     :30px 0 20px;      /* 画像周りの余白（上 左右 下px） */
+}
+
+
+
+
+/* トップへ */
+.page-top {
+		position             : fixed;
+		bottom               : 60px;
+		right                : 40px;
+		padding              : 30px;
+		background           : #7e7a7a;
+		border-radius        : 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius   : 5px;
+		font-size            : 30px;
+		-ms-filter           : "alpha(opacity=80)";
+		-moz-opacity         : 0.8;
+		-khtml-opacity       : 0.8;
+		opacity              : 0.8;
+}
+
+
+/* ↓ table要素 */
+	table
+	{	
+		font-size:  10.5pt;
+		font-family: 'ＭＳ ゴシック, Osaka';
+	}
+	/* 通常テーブル用 */
+	table.tblNormal
+	{	
+		font-size:  10.5pt;
+		font-family: 'ＭＳ ゴシック, Osaka';
+		border-collapse: collapse;
+		padding:2px 2px 2px 2px;	
+	}
+	table.InnerTbl
+	{	
+		font-size:  30pt;
+		font-family: 'ＭＳ ゴシック, Osaka';
+		border-collapse: collapse;
+	}
+/* ↑ table要素 */
+
+
+
+/* ギャラリータイル */
+div.G_Tile
+{
+		position               : relative;
+		height                 : 200px;
+		width                  : 200px;
+//		background-color: #38A3DB;
+		margin: 30px;
+		float                  : left;
+		font-family            : Meiryo UI;
+		-webkit-transform      : scale(1.1, 1.1);
+		font-size              : 25pt;
+		color                  : White;
+		-moz-background-size   :cover;
+		background-size        :cover;
+}
+
+div.G_Tile:hover
+{
+		-webkit-transform          : scale(1.1, 1.1);
+		/* IEの場合は -ms-transform: scale(1.1, 1.1); */
+		background-image           : url("white_vpvot.png");
+		background-repeat          : no-repeat;
+		background-position        : right top;
+		opacity                    : 0.75;
+}
+
+span.G_TileTitle
+{
+		position   : absolute;
+		bottom     : 0;
+		left       : 0;
+		font-family: Meiryo UI;
+		font-size  : 40pt;
+		color      : White;
+}
+
+span.G_TileContents
+{
+		position   : absolute;
+		padding    : 10px;
+		top        : 10%;
+		font-family: Meiryo UI;
+		font-size  : 24pt;
+		color      : White;
+}
