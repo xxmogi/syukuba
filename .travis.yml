@@ -1,4 +1,4 @@
-language: JavaScript
+language: node_js
 script: 
     - echo "start"
 before_install:
