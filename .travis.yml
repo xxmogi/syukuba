@@ -14,5 +14,5 @@ env:
 after_success:
     - if [[ "$TRAVIS_BRANCH" == "master" ]]; then
         export SSHPATH=$DEPLOY_PASS;
-        sshpass -e ssh -o "StrictHostKeyChecking"=no $DEPLOY_USER@$DEPLOY_HOST deploy.sh 1>/dev/null 2>/dev/null;
+        sshpass -e ssh -o "StrictHostKeyChecking"=no $DEPLOY_USER@$DEPLOY_HOST /home/syukuba/deploy.sh ;
       fi
