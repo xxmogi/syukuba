@@ -1,4 +1,7 @@
 language: JavaScript
+sudo: false
+script: 
+    - echo "start"
 env:
   global:
   - secure: m2e88zYi6xRy7RthD12Rl3Rkch7ywinaflAbXBPfiUiaf92VxOEjBBaVFp/rOCZ0OHgGG5VQJnZs8lRxl4MRPLiL/lh95aKADevhAZltmHoh1mz+n9J3P4IAa845NlyHD137Td1NGC0MJEZ/pOGC+a4sctk1rZHpn7pVAezuNrhs7JjiWqj8+G6OGbshY67kstH4njHrCrtmSNQm0wg9RDfemMXLeIyMj8vhcQjz3qfp/oVSwokT7FmDsblZulLRchv32UwXh0FuQoKnwBuicWHqUW1NVMAN6zGjxcdK/CeYj9uYKztkDqPb/ZqZGgxopjvLfAC1lJL/aKeOEQR3ZirYcbmycMBvY3eV2UgPU5AD3W6kSYA0dkNlhvLQxFofcJNzbZDMnoqVRqjIVchsU8PgvftjUQOogJ3/ebO41F4e4h+xwuWFZGlz6XhehXpnPHztSdY9GWwgH7PhIlJj0ysjXJqNHL5zFNoY6dPNb4RwPumdj+SSi9m1nJClR5XPzhQI4/5ip47lmCI+GLhSSiouFfMwE0qmy1dZs4W3i3h2JA9IoMSY7L+2iXFFPtDPo7sj77ALYtIuHTn5iB2v/OqyrWUv5nA17Q2Kxo0Z21Pniii0Jx0XDD0bEr/6FA8YmbwVRJ5NUG1lmdNSeIYoAEvl3fDK9/xbwt4lJ1XLU84=
@@ -10,6 +13,7 @@ addons:
   apt:
     packages:
     - sshpass
+
 after_success:
     - if [[ "$TRAVIS_BRANCH" == "master" ]]; then
         export SSHPATH=$DEPLOY_PASS;
