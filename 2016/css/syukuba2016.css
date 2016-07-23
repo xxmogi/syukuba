@@ -1,14 +1,14 @@
 @charset "Shift_JIS";
 
-/*@ƒƒjƒ…[@*/
+/*ï¿½@ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½@*/
 
-/* ƒƒjƒ…[ƒ^ƒCƒ‹1 */
+/* ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½^ï¿½Cï¿½ï¿½1 */
 div.Tile
 {
 		position               : relative;
 		height                 : 400px;
 		width                  : 400px;
-//		background-color: #38A3DB;
+/*		background-color: #38A3DB;*/
 		margin: 0px;
 		float                  : left;
 		font-family            : Meiryo UI;
@@ -21,7 +21,7 @@ div.Tile
 div.Tile:hover
 {
 		-webkit-transform          : scale(1.1, 1.1);
-		/* IE‚Ìê‡‚Í -ms-transform: scale(1.1, 1.1); */
+		/* IEï¿½Ìê‡ï¿½ï¿½ -ms-transform: scale(1.1, 1.1); */
 		background-image           : url("white_vpvot.png");
 		background-repeat          : no-repeat;
 		background-position        : right top;
@@ -48,13 +48,13 @@ span.TileContents
 		color      : White;
 }
 
-/* ƒƒjƒ…[ƒ^ƒCƒ‹2(half) */
+/* ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½^ï¿½Cï¿½ï¿½2(half) */
 div.Tile2
 {
 		position               : relative;
 		height                 : 200px;
 		width                  : 400px;
-//		background-color: #38A3DB;
+/*	    background-color: #38A3DB; */
 		margin: 0px;
 		float                  : left;
 		font-family            : Meiryo UI;
@@ -67,7 +67,7 @@ div.Tile2
 div.Tile2:hover
 {
 		-webkit-transform          : scale(1.1, 1.1);
-		/* IE‚Ìê‡‚Í -ms-transform: scale(1.1, 1.1); */
+		/* IEï¿½Ìê‡ï¿½ï¿½ -ms-transform: scale(1.1, 1.1); */
 		background-image           : url("white_vpvot.png");
 		background-repeat          : no-repeat;
 		background-position        : right top;
@@ -75,7 +75,7 @@ div.Tile2:hover
 }
 
 
-/* ƒƒjƒ…[ƒ^ƒCƒ‹1/4) */
+/* ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½^ï¿½Cï¿½ï¿½1/4) */
 div.Tile_quarter
 {
 		position               : relative;
@@ -89,13 +89,13 @@ div.Tile_quarter
 		font-size              : 25pt;
 		color                  : White;
 		border-style           : solid;
-		margin     :30px 20px 20px;      /* ‰æ‘œü‚è‚Ì—]”’iã ¶‰E ‰ºpxj */
+		margin     :30px 20px 20px;      /* ï¿½æ‘œï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½E ï¿½ï¿½pxï¿½j */
 }
 
 div.Tile_quarter:hover
 {
 		-webkit-transform          : scale(1.1, 1.1);
-		/* IE‚Ìê‡‚Í -ms-transform: scale(1.1, 1.1); */
+		/* IEï¿½Ìê‡ï¿½ï¿½ -ms-transform: scale(1.1, 1.1); */
 		background-image           : url("white_vpvot.png");
 		background-repeat          : no-repeat;
 		background-position        : right top;
@@ -113,100 +113,100 @@ span.TileTitle_quarter
 }
 
 
-/* Œ©o‚µ */
+/* ï¿½ï¿½ï¿½oï¿½ï¿½ */
 .headline_red {
-		font-size  :40px;             /* •¶š‚Ì‘å‚«‚³ */
+		font-size  :40px;             /* ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½ */
 		background :url(../images/head/head017_01.png) no-repeat;
-		line-height:40px;             /* s‚Ì‚‚³ */
-		padding    :0 0 0 20px;       /* •¶šü‚è‚Ì—]”’iã ‰E ‰º ¶pxj */
-		margin     :30px 0 20px;      /* ‰æ‘œü‚è‚Ì—]”’iã ¶‰E ‰ºpxj */
+		line-height:40px;             /* ï¿½sï¿½Ìï¿½ï¿½ï¿½ */
+		padding    :0 0 0 20px;       /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½E ï¿½ï¿½ ï¿½ï¿½pxï¿½j */
+		margin     :30px 0 20px;      /* ï¿½æ‘œï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½E ï¿½ï¿½pxï¿½j */
 }
 
 .headline_orange {
-		font-size  :40px;             /* •¶š‚Ì‘å‚«‚³ */
+		font-size  :40px;             /* ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½ */
 		background :url(../images/head/head017_02.png) no-repeat;
-		line-height:40px;             /* s‚Ì‚‚³ */
-		padding    :0 0 0 20px;       /* •¶šü‚è‚Ì—]”’iã ‰E ‰º ¶pxj */
-		margin     :30px 0 20px;      /* ‰æ‘œü‚è‚Ì—]”’iã ¶‰E ‰ºpxj */
+		line-height:40px;             /* ï¿½sï¿½Ìï¿½ï¿½ï¿½ */
+		padding    :0 0 0 20px;       /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½E ï¿½ï¿½ ï¿½ï¿½pxï¿½j */
+		margin     :30px 0 20px;      /* ï¿½æ‘œï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½E ï¿½ï¿½pxï¿½j */
 }
 
 .headline_yellow {
-		font-size  :40px;             /* •¶š‚Ì‘å‚«‚³ */
+		font-size  :40px;             /* ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½ */
 		background :url(../images/head/head017_03.png) no-repeat;
-		line-height:40px;             /* s‚Ì‚‚³ */
-		padding    :0 0 0 20px;       /* •¶šü‚è‚Ì—]”’iã ‰E ‰º ¶pxj */
-		margin     :30px 0 20px;      /* ‰æ‘œü‚è‚Ì—]”’iã ¶‰E ‰ºpxj */
+		line-height:40px;             /* ï¿½sï¿½Ìï¿½ï¿½ï¿½ */
+		padding    :0 0 0 20px;       /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½E ï¿½ï¿½ ï¿½ï¿½pxï¿½j */
+		margin     :30px 0 20px;      /* ï¿½æ‘œï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½E ï¿½ï¿½pxï¿½j */
 }
 
 .headline_green {
-		font-size  :40px;             /* •¶š‚Ì‘å‚«‚³ */
+		font-size  :40px;             /* ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½ */
 		background :url(../images/head/head017_04.png) no-repeat;
-		line-height:40px;             /* s‚Ì‚‚³ */
-		padding    :0 0 0 20px;       /* •¶šü‚è‚Ì—]”’iã ‰E ‰º ¶pxj */
-		margin     :30px 0 20px;      /* ‰æ‘œü‚è‚Ì—]”’iã ¶‰E ‰ºpxj */
+		line-height:40px;             /* ï¿½sï¿½Ìï¿½ï¿½ï¿½ */
+		padding    :0 0 0 20px;       /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½E ï¿½ï¿½ ï¿½ï¿½pxï¿½j */
+		margin     :30px 0 20px;      /* ï¿½æ‘œï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½E ï¿½ï¿½pxï¿½j */
 }
 
 .headline_lblue {
-		font-size  :40px;             /* •¶š‚Ì‘å‚«‚³ */
+		font-size  :40px;             /* ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½ */
 		background :url(../images/head/head017_05.png) no-repeat;
-		line-height:40px;             /* s‚Ì‚‚³ */
-		padding    :0 0 0 20px;       /* •¶šü‚è‚Ì—]”’iã ‰E ‰º ¶pxj */
-		margin     :30px 0 20px;      /* ‰æ‘œü‚è‚Ì—]”’iã ¶‰E ‰ºpxj */
+		line-height:40px;             /* ï¿½sï¿½Ìï¿½ï¿½ï¿½ */
+		padding    :0 0 0 20px;       /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½E ï¿½ï¿½ ï¿½ï¿½pxï¿½j */
+		margin     :30px 0 20px;      /* ï¿½æ‘œï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½E ï¿½ï¿½pxï¿½j */
 }
 
 .headline_blue {
-		font-size  :40px;             /* •¶š‚Ì‘å‚«‚³ */
+		font-size  :40px;             /* ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½ */
 		background :url(../images/head/head017_06.png) no-repeat;
-		line-height:40px;             /* s‚Ì‚‚³ */
-		padding    :0 0 0 20px;       /* •¶šü‚è‚Ì—]”’iã ‰E ‰º ¶pxj */
-		margin     :30px 0 20px;      /* ‰æ‘œü‚è‚Ì—]”’iã ¶‰E ‰ºpxj */
+		line-height:40px;             /* ï¿½sï¿½Ìï¿½ï¿½ï¿½ */
+		padding    :0 0 0 20px;       /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½E ï¿½ï¿½ ï¿½ï¿½pxï¿½j */
+		margin     :30px 0 20px;      /* ï¿½æ‘œï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½E ï¿½ï¿½pxï¿½j */
 }
 
 .headline_purple {
-		font-size  :40px;             /* •¶š‚Ì‘å‚«‚³ */
+		font-size  :40px;             /* ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½ */
 		background :url(../images/head/head017_07.png) no-repeat;
-		line-height:40px;             /* s‚Ì‚‚³ */
-		padding    :0 0 0 20px;       /* •¶šü‚è‚Ì—]”’iã ‰E ‰º ¶pxj */
-		margin     :30px 0 20px;      /* ‰æ‘œü‚è‚Ì—]”’iã ¶‰E ‰ºpxj */
+		line-height:40px;             /* ï¿½sï¿½Ìï¿½ï¿½ï¿½ */
+		padding    :0 0 0 20px;       /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½E ï¿½ï¿½ ï¿½ï¿½pxï¿½j */
+		margin     :30px 0 20px;      /* ï¿½æ‘œï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½E ï¿½ï¿½pxï¿½j */
 }
 
 .headline_pink {
-		font-size  :40px;             /* •¶š‚Ì‘å‚«‚³ */
+		font-size  :40px;             /* ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½ */
 		background :url(../images/head/head017_08.png) no-repeat;
-		line-height:40px;             /* s‚Ì‚‚³ */
-		padding    :0 0 0 20px;       /* •¶šü‚è‚Ì—]”’iã ‰E ‰º ¶pxj */
-		margin     :30px 0 20px;      /* ‰æ‘œü‚è‚Ì—]”’iã ¶‰E ‰ºpxj */
+		line-height:40px;             /* ï¿½sï¿½Ìï¿½ï¿½ï¿½ */
+		padding    :0 0 0 20px;       /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½E ï¿½ï¿½ ï¿½ï¿½pxï¿½j */
+		margin     :30px 0 20px;      /* ï¿½æ‘œï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½E ï¿½ï¿½pxï¿½j */
 }
 
 .headline_gray {
-		font-size  :40px;             /* •¶š‚Ì‘å‚«‚³ */
+		font-size  :40px;             /* ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½ */
 		background :url(../images/head/head017_09.png) no-repeat;
-		line-height:40px;             /* s‚Ì‚‚³ */
-		padding    :0 0 0 20px;       /* •¶šü‚è‚Ì—]”’iã ‰E ‰º ¶pxj */
-		margin     :30px 0 20px;      /* ‰æ‘œü‚è‚Ì—]”’iã ¶‰E ‰ºpxj */
+		line-height:40px;             /* ï¿½sï¿½Ìï¿½ï¿½ï¿½ */
+		padding    :0 0 0 20px;       /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½E ï¿½ï¿½ ï¿½ï¿½pxï¿½j */
+		margin     :30px 0 20px;      /* ï¿½æ‘œï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½E ï¿½ï¿½pxï¿½j */
 }
 
 .headline_black {
-		font-size  :40px;             /* •¶š‚Ì‘å‚«‚³ */
+		font-size  :40px;             /* ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½ */
 		background :url(../images/head/head017_10.png) no-repeat;
-		line-height:40px;             /* s‚Ì‚‚³ */
-		padding    :0 0 0 20px;       /* •¶šü‚è‚Ì—]”’iã ‰E ‰º ¶pxj */
-		margin     :30px 0 20px;      /* ‰æ‘œü‚è‚Ì—]”’iã ¶‰E ‰ºpxj */
+		line-height:40px;             /* ï¿½sï¿½Ìï¿½ï¿½ï¿½ */
+		padding    :0 0 0 20px;       /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½E ï¿½ï¿½ ï¿½ï¿½pxï¿½j */
+		margin     :30px 0 20px;      /* ï¿½æ‘œï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½E ï¿½ï¿½pxï¿½j */
 }
 
 /* whats new */
 .whats_new_red {
-		font-size  :40px;             /* •¶š‚Ì‘å‚«‚³ */
+		font-size  :40px;             /* ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½ */
 		background :url(../images/new/new017_06.gif) no-repeat;
-		line-height:30px;             /* s‚Ì‚‚³ */
-		padding    :0 20px 20px 20px; /* •¶šü‚è‚Ì—]”’iã ‰E ‰º ¶pxj */
-		margin     :30px 0 20px;      /* ‰æ‘œü‚è‚Ì—]”’iã ¶‰E ‰ºpxj */
+		line-height:30px;             /* ï¿½sï¿½Ìï¿½ï¿½ï¿½ */
+		padding    :0 20px 20px 20px; /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½E ï¿½ï¿½ ï¿½ï¿½pxï¿½j */
+		margin     :30px 0 20px;      /* ï¿½æ‘œï¿½ï¿½ï¿½ï¿½ï¿½Ì—]ï¿½ï¿½ï¿½iï¿½ï¿½ ï¿½ï¿½ï¿½E ï¿½ï¿½pxï¿½j */
 }
 
 
 
 
-/* ƒgƒbƒv‚Ö */
+/* ï¿½gï¿½bï¿½vï¿½ï¿½ */
 .page-top {
 		position             : fixed;
 		bottom               : 60px;
@@ -224,31 +224,31 @@ span.TileTitle_quarter
 }
 
 
-/* « table—v‘f */
+/* ï¿½ï¿½ tableï¿½vï¿½f */
 	table
 	{	
 		font-size:  10.5pt;
-		font-family: '‚l‚r ƒSƒVƒbƒN, Osaka';
+		font-family: 'ï¿½lï¿½r ï¿½Sï¿½Vï¿½bï¿½N, Osaka';
 	}
-	/* ’Êíƒe[ƒuƒ‹—p */
+	/* ï¿½Êï¿½ï¿½eï¿½[ï¿½uï¿½ï¿½ï¿½p */
 	table.tblNormal
 	{	
 		font-size:  10.5pt;
-		font-family: '‚l‚r ƒSƒVƒbƒN, Osaka';
+		font-family: 'ï¿½lï¿½r ï¿½Sï¿½Vï¿½bï¿½N, Osaka';
 		border-collapse: collapse;
 		padding:2px 2px 2px 2px;	
 	}
 	table.InnerTbl
 	{	
 		font-size:  30pt;
-		font-family: '‚l‚r ƒSƒVƒbƒN, Osaka';
+		font-family: 'ï¿½lï¿½r ï¿½Sï¿½Vï¿½bï¿½N, Osaka';
 		border-collapse: collapse;
 	}
-/* ª table—v‘f */
+/* ï¿½ï¿½ tableï¿½vï¿½f */
 
 
 
-/* ƒMƒƒƒ‰ƒŠ[ƒ^ƒCƒ‹ */
+/* ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Cï¿½ï¿½ */
 div.G_Tile
 {
 		position               : relative;
@@ -268,7 +268,7 @@ div.G_Tile
 div.G_Tile:hover
 {
 		-webkit-transform          : scale(1.1, 1.1);
-		/* IE‚Ìê‡‚Í -ms-transform: scale(1.1, 1.1); */
+		/* IEï¿½Ìê‡ï¿½ï¿½ -ms-transform: scale(1.1, 1.1); */
 		background-image           : url("white_vpvot.png");
 		background-repeat          : no-repeat;
 		background-position        : right top;
