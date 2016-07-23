@@ -10,4 +10,4 @@ deployment:
   production:
     branch: master
     commands:
-      - scp LICENSE ${SSH_USER}@${HOST_NAME}:DEPLOY_DIR
+      - scp -r ${DEPLOY_YEAR} ${SSH_USER}@${HOST_NAME}:${DEPLOY_DIR}/${DEPLOY_YEAR}
