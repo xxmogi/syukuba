@@ -1,0 +1,13 @@
+machine:
+  timezone:
+    Asia/Tokyo
+
+test:
+  override:
+    - echo "test"
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - scp LICENSE ${SSH_USER}@${HOST_NAME}:DEPLOY_DIR
