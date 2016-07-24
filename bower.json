@@ -1,0 +1,31 @@
+{
+  "name": "syukuba",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Takashi Mogi <xxmogi@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/xxmogi/syukuba",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "skrollr": "~0.6.30"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": "dist/css/bootstrap.css",
+      "dependencies": {}
+    },
+    "font-awesome": {
+      "main": "css/font-awesome.css"
+    }
+  }
+}

@@ -18,6 +18,10 @@
   "homepage": "https://github.com/xxmogi/syukuba#readme",
   "devDependencies": {
     "browser-sync": "^2.13.0",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-swig": "^0.8.0",
+    "main-bower-files": "^2.13.1"
   }
 }

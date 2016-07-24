@@ -1,0 +1,101 @@
+{% extends "../layout/layout.swig" %}
+
+{% block content %}
+    		<a href="syukuba_top.html" class="page-top">TOP</a>
+		
+		
+		<form name="top" method="post" id="top" autocomplete="off">
+			<ul id="TOP">
+				<ul>
+					<div id="komachi_top" style="width:750px;height:467px;background-image: url(images/komachi/top/komachi_top.jpg);-webkit-transform: scale(1.1, 1.1);" onclick="location.href='syukuba_top.html'" ></div>
+				</ul>
+			</ul>
+		</form>
+	
+		<form name="Form1" method="post" id="Form1" autocomplete="off">
+			<ul>
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" class="InnerTbl">
+					<tr>
+						<td valign="TOP">
+
+							<!-- MESSAGE -->
+							<h3 ID="MESSAGE" class="headline_blue">2016年宿場小町募集</h3>
+							<div id="Contents" style="width:100%">
+								<span style="white-space:nowrap;overflow:hidden;display:block;" >
+									宿場祭りでは2016年の宿場小町を募集しています。<br>
+									港のヨコ保土ヶ谷宿場町で<br>
+									祭りを彩る小町になってみませんか？<br>
+									<br>
+									祭り当日は来場者へのお披露目やイベントへの参加<br>
+									祭り後は地元保土ヶ谷の紹介やPR活動を行います。<br>
+								</span>
+								<span>
+									<a href="file/小町募集.doc" target="_blank">募集要項はこちらから</a>
+								</span>
+							<div>
+						</td>
+					<tr/>
+
+					<tr>
+						<td valign="BLOG">
+
+							<!-- BLOG -->
+							<h3 ID="BLOG" class="headline_pink">2015年宿場小町の活動</h3>
+								<!-- start feedwind code -->
+								<script type="text/javascript">
+									//<![CDATA[
+									document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');
+									//]]>
+									</script><script type="text/javascript">
+									//<![CDATA[
+									(function() {var params = {rssmikle_url: "http://rssblog.ameba.jp/komachi-hodogaya/rss20.xml",rssmikle_frame_width: "800",rssmikle_frame_height: "620",frame_height_by_article: "0",rssmikle_target: "_blank",rssmikle_font: "'メイリオ','ＭＳ Ｐゴシック',sans-serif",rssmikle_font_size: "40",rssmikle_border: "on",responsive: "off",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "off",scrollbar: "on",autoscroll: "on",scrolldirection: "up",scrollstep: "3",mcspeed: "20",sort: "Off",rssmikle_title: "on",rssmikle_title_sentence: "",rssmikle_title_link: "",rssmikle_title_bgcolor: "#848484",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#FFFFFF",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "#666666",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#666666",rssmikle_item_date: "ja",rssmikle_timezone: "Etc/GMT",datetime_format: "",item_description_style: "text+tn",item_thumbnail: "full",item_thumbnail_selection: "auto",article_num: "15",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: "PR"};feedwind_show_widget_iframe(params);})();
+									//]]>
+								</script>
+								<div style="font-size:10px; text-align:center; width:270px;">
+								    <a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a><!--Please display the above link in your web page according to Terms of Service.-->
+								</div>
+								<!-- end feedwind code -->
+						</td>
+					<tr/>
+
+
+					<tr>
+						<td valign="KOMACHI">
+
+							<!-- KOMACHI -->
+							<h3 ID="KOMACHI" class="headline_pink">2015年宿場小町GALLERY</h3>
+							<div id="Contents" style="width:100%">
+								<div id="DivG01" class="G_Tile" style="background-image: url(images/komachi/Thumbnail/komachi001.jpg);" onclick="window.open().location.href='images/komachi/gallery/komachi001.jpg'" ></div>
+								<div id="DivG02" class="G_Tile" style="background-image: url(images/komachi/Thumbnail/komachi002.jpg);" onclick="window.open().location.href='images/komachi/gallery/komachi002.jpg'" ></div>
+								<div id="DivG03" class="G_Tile" style="background-image: url(images/komachi/Thumbnail/komachi003.jpg);" onclick="window.open().location.href='images/komachi/gallery/komachi003.jpg'" ></div>
+								<div id="DivG04" class="G_Tile" style="background-image: url(images/komachi/Thumbnail/komachi004.jpg);" onclick="window.open().location.href='images/komachi/gallery/komachi004.jpg'" ></div>
+							</div>
+						</td>
+					<tr/>
+
+
+
+				</table>
+
+
+
+
+				
+
+
+
+				
+<!--
+				<h3 class="headline_orange">ACCESS</h3>
+				<h3 class="headline_yellow">SAMPLE</h3>
+				<h3 class="headline_green" >SAMPLE</h3>
+				<h3 class="headline_lblue" >SAMPLE</h3>
+				<h3 class="headline_blue"  >SAMPLE</h3>
+				<h3 class="headline_purple">SAMPLE</h3>
+				<h3 class="headline_pink"  >SAMPLE</h3>
+				<h3 class="headline_gray"  >SAMPLE</h3>
+				<h3 class="headline_black" >SAMPLE</h3>
+-->
+			<ul>
+		</form>
+{% endblock %}
