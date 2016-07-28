@@ -1,232 +1,123 @@
-{% extends "../layout/layout.swig" %}
+{% macro gallery(path) %}
+<div class="col-xs-6 col-md-3">
+    <a href="{{path}}" class="thumbnail" data-lightbox="image-1" data-title="My caption">
+        <img src="{{path}}">
+    </a>
+</div>
+{% endmacro %}
+
+{% extends "../layout/layout.swig" %} 
 
 {% block content %}
-<div class="container-fluid">
-		<a href="#TOP" class="page-top">PAGE TOP ▲</a>
-		
-<!--
-		<form name="top" method="post" id="top" autocomplete="off">
-			<ul>
-				<script type="text/javascript">
--->
-					<!--
-					//--設定部分↓--
-					var global_miyake_SlideTime=5000;	//--スライドショー速度（ミリ秒）
-					var global_miyake_AniTime=1000;		//--アニメーション時間（ミリ秒）
-					var global_miyake_Suu=7;		//--写真の枚数
-					var global_miyake_W=800;		//--写真の幅（ピクセル）
-					var global_miyake_H=350;		//--写真の高さ（ピクセル）
-					var global_miyake_Path="http://syukuba.net/2016/images/top/";		//--あなたの写真をアップしたホルダーへのパス
-					//--設定部分↑--
-					document.write('<iframe src="http://www.geocities.jp/miyake_kobo/js/3DPage1_e_F.html?'+global_miyake_Path+','+global_miyake_SlideTime+','+global_miyake_AniTime+','+global_miyake_Suu+'" style="width:'+global_miyake_W+'px;height:'+global_miyake_H+'px;" frameborder=0 scrolling=no allowtransparency=true>Slide show of Miyake_kobo</iframe>');
-					//-->
-<!--
-				</script>
-			</ul>
-		</form>
--->	
-		<form name="menu" border="0" method="post" id="top" autocomplete="off">
-			<ul>
-				<div id="Contents" style="width:100%">
-					<!-- <div id="Div1" class="Tile" style=" -webkit-transform: scale(1.1, 1.1);background-image: url(images/gallery/DSC_0206.JPG);opacity: 0.5;"></div> -->
-					<div id="Div01" class="Tile_quarter" style="background-image: url(images/menu/menu01.jpg);" onclick="location.href='#TOPICS'" >
-						<span class="TileTitle_quarter">TOPICS</span>
-					</div>
-					<div id="Div02" class="Tile_quarter" style="background-image: url(images/menu/menu02.jpg);" onclick="location.href='#ACCESS'" >
-						<span class="TileTitle_quarter">ACCESS</span>
-					</div>
-					<div id="Div03" class="Tile_quarter" style="background-image: url(images/menu/menu05.jpg);" onclick="location.href='komachi_boshu.html'" >
-						<span class="TileTitle_quarter">宿場小町募集</span>
-					</div>
-					<div id="Div04" class="Tile_quarter" style="background-image: url(images/menu/menu03.jpg);" onclick="location.href='#MAP'" >
-						<span class="TileTitle_quarter">イベント情報</span>
-					</div>
-					<div id="Div05" class="Tile_quarter" style="background-image: url(images/menu/menu04.jpg);" onclick="location.href='#GALLERY'" >
-						<span class="TileTitle_quarter">GALLERY</span>
-					</div>
-				</div>
-			</ul>
-		</form>
-		<form name="Form1" method="post" id="Form1" autocomplete="off">
-			<ul>
-				<table width="100%" border="0" cellspacing="0" cellpadding="0" class="InnerTbl">
-					<tr>
-						<!-- What's New -->
-						<td valign="top">
-							<h3 id="TOPICS" class="headline_red"   >What's New</h3>
-							<ul>
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" class="InnerTbl">
-									<tr>
-										<!-- New -->
-										<span class="whats_new_red"></span>
-										<!-- New -->
-
-										<td width="20%" >2016/06/12&nbsp;</td>
-										<td width="80%">
-											<span style="white-space:nowrap;overflow:hidden;display:block;" >
-												2016年HP開設しました
-											</span>
-										</td>
-									</tr>
-									
-									<!-- 点線 -->
-<!-- 
-									<tr>
-										<td>&nbsp;</td>
-									</tr>
-									<tr>
-										<td colspan="2"><hr Align="left" style="border:none;border-top:dashed 1px #FFFFFF;height:1px;color:#FFFFFF;width:600px;"></td>
-									</tr>
-									<tr>
-										<td>&nbsp;</td>
-									</tr>
- -->
-									<!-- 点線 -->
-
-								</table>
-							</ul>
-							
-							<!-- ACCESS -->
-							<h3 id="ACCESS" class="headline_orange">ACCESS</h3>
-							
-							<ul>
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" class="InnerTbl">
-									<tr>
-										<td>2016年10月09日(日)～2016年10月10日(月)</td>
-									</tr>
-									<tr>
-										<td>保土ヶ谷駅西口より徒歩５分</td>
-									</tr>
-									<tr>
-										<td>&nbsp</td>
-									</tr>
-								</table>
-								<div id="access" style="width:430px;height:360px;background-image: url(images/map/ACCESS.jpg);-webkit-transform: scale(1.1, 1.1);" onclick="window.open().location.href='https://www.google.com/maps/d/embed?mid=zIavlo1mr2WQ.kMfAvpdjc3hc'" ></div>
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" class="InnerTbl">
-									<tr>
-										<td>&nbsp</td>
-									</tr>
-									<tr>
-										<td>
-											※地図をクリックで詳細地図を開きます<br>
-											　<a href="https://www.google.com/maps/d/embed?mid=zIavlo1mr2WQ.kMfAvpdjc3hc"target=blank>開かない場合はこちら</a>
-										</td>
-									</tr>
-								</table>
-							</ul>
-
-							<!-- MAP -->
-							<h3 ID="MAP" class="headline_yellow">イベント情報</h3>
-							<ul>
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" class="InnerTbl">
-									<tr>
-										<td>&nbsp</td>
-									</tr>
-								</table>
-
-								<div id="map" style="width:537px;height:759px;background-image: url(images/map/宿場地図.jpg);-webkit-transform: scale(1.1, 1.1);" onclick="window.open().location.href='file/宿場地図.pdf'" ></div>
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" class="InnerTbl">
-									<tr>
-										<td>&nbsp</td>
-									</tr>
-									<tr>
-										<td>
-											※画像をクリックでPDFをダウンロードします<br>
-											　<a href="file/宿場地図.pdf"target=blank>ダウンロードできない場合はこちら</a>
-										</td>
-									</tr>
-								</table>
-							</ul>
-							<ul>
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" class="InnerTbl">
-									<tr>
-										<td>&nbsp</td>
-									</tr>
-								</table>
-
-								<div id="map2" style="width:537px;height:377px;background-image: url(images/map/kidstown.jpg);-webkit-transform: scale(1.1, 1.1);" onclick="window.open().location.href='file/kidstown.pdf'" ></div>
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" class="InnerTbl">
-									<tr>
-										<td>&nbsp</td>
-									</tr>
-									<tr>
-										<td>
-											※画像をクリックでPDFをダウンロードします<br>
-											　<a href="file/kidstown.pdf"target=blank>ダウンロードできない場合はこちら</a>
-										</td>
-									</tr>
-								</table>
-							</ul>
-
-							<!-- GALLERY -->
-							<h3 ID="GALLERY" class="headline_green">GALLERY</h3>
-							<div id="Contents" style="width:100%">
-								<div id="DivG01" class="G_Tile" style="background-image: url(images/gallery/001.jpg);" onclick="window.open().location.href='images/gallery/001.jpg'" ></div>
-								<div id="DivG02" class="G_Tile" style="background-image: url(images/gallery/002.jpg);" onclick="window.open().location.href='images/gallery/002.jpg'" ></div>
-								<div id="DivG03" class="G_Tile" style="background-image: url(images/gallery/003.jpg);" onclick="window.open().location.href='images/gallery/003.jpg'" ></div>
-								<!--
-								<div id="DivG04" class="G_Tile" style="background-image: url(images/gallery/004.jpg);" onclick="window.open().location.href='images/gallery/004.jpg'" ></div>
-								<div id="DivG05" class="G_Tile" style="background-image: url(images/gallery/005.jpg);" onclick="window.open().location.href='images/gallery/005.jpg'" ></div>
-								<div id="DivG06" class="G_Tile" style="background-image: url(images/gallery/006.jpg);" onclick="window.open().location.href='images/gallery/006.jpg'" ></div>
-								<div id="DivG07" class="G_Tile" style="background-image: url(images/gallery/007.jpg);" onclick="window.open().location.href='images/gallery/007.jpg'" ></div>
-								-->
-								<div id="DivG08" class="G_Tile" style="background-image: url(images/gallery/008.jpg);" onclick="window.open().location.href='images/gallery/008.jpg'" ></div>
-								<div id="DivG09" class="G_Tile" style="background-image: url(images/gallery/009.jpg);" onclick="window.open().location.href='images/gallery/009.jpg'" ></div>
-								<div id="DivG10" class="G_Tile" style="background-image: url(images/gallery/010.jpg);" onclick="window.open().location.href='images/gallery/010.jpg'" ></div>
-								<div id="DivG11" class="G_Tile" style="background-image: url(images/gallery/011.jpg);" onclick="window.open().location.href='images/gallery/011.jpg'" ></div>
-								<div id="DivG12" class="G_Tile" style="background-image: url(images/gallery/012.jpg);" onclick="window.open().location.href='images/gallery/012.jpg'" ></div>
-								
-								<div id="DivG13" class="G_Tile" style="background-image: url(images/gallery/013.jpg);" onclick="window.open().location.href='images/gallery/013.jpg'" ></div>
-								<div id="DivG14" class="G_Tile" style="background-image: url(images/gallery/014.jpg);" onclick="window.open().location.href='images/gallery/014.jpg'" ></div>
-								<div id="DivG15" class="G_Tile" style="background-image: url(images/gallery/015.jpg);" onclick="window.open().location.href='images/gallery/015.jpg'" ></div>
-								<div id="DivG16" class="G_Tile" style="background-image: url(images/gallery/016.jpg);" onclick="window.open().location.href='images/gallery/016.jpg'" ></div>
-								<!--
-								<div id="DivG17" class="G_Tile" style="background-image: url(images/gallery/017.jpg);" onclick="window.open().location.href='images/gallery/017.jpg'" ></div>
-								<div id="DivG18" class="G_Tile" style="background-image: url(images/gallery/018.jpg);" onclick="window.open().location.href='images/gallery/018.jpg'" ></div>
-								<div id="DivG19" class="G_Tile" style="background-image: url(images/gallery/019.jpg);" onclick="window.open().location.href='images/gallery/019.jpg'" ></div>
-								<div id="DivG20" class="G_Tile" style="background-image: url(images/gallery/020.jpg);" onclick="window.open().location.href='images/gallery/020.jpg'" ></div>
-								<div id="DivG21" class="G_Tile" style="background-image: url(images/gallery/021.jpg);" onclick="window.open().location.href='images/gallery/021.jpg'" ></div>
-								<div id="DivG22" class="G_Tile" style="background-image: url(images/gallery/022.jpg);" onclick="window.open().location.href='images/gallery/022.jpg'" ></div>
-								<div id="DivG23" class="G_Tile" style="background-image: url(images/gallery/023.jpg);" onclick="window.open().location.href='images/gallery/023.jpg'" ></div>
-								<div id="DivG24" class="G_Tile" style="background-image: url(images/gallery/024.jpg);" onclick="window.open().location.href='images/gallery/024.jpg'" ></div>
-								<div id="DivG25" class="G_Tile" style="background-image: url(images/gallery/025.jpg);" onclick="window.open().location.href='images/gallery/025.jpg'" ></div>
-								<div id="DivG26" class="G_Tile" style="background-image: url(images/gallery/026.jpg);" onclick="window.open().location.href='images/gallery/026.jpg'" ></div>
-								<div id="DivG27" class="G_Tile" style="background-image: url(images/gallery/027.jpg);" onclick="window.open().location.href='images/gallery/027.jpg'" ></div>
-								<div id="DivG28" class="G_Tile" style="background-image: url(images/gallery/028.jpg);" onclick="window.open().location.href='images/gallery/028.jpg'" ></div>
-								<div id="DivG29" class="G_Tile" style="background-image: url(images/gallery/029.jpg);" onclick="window.open().location.href='images/gallery/029.jpg'" ></div>
-								<div id="DivG30" class="G_Tile" style="background-image: url(images/gallery/030.jpg);" onclick="window.open().location.href='images/gallery/030.jpg'" ></div>
-								<div id="DivG31" class="G_Tile" style="background-image: url(images/gallery/031.jpg);" onclick="window.open().location.href='images/gallery/031.jpg'" ></div>
-								<div id="DivG32" class="G_Tile" style="background-image: url(images/gallery/032.jpg);" onclick="window.open().location.href='images/gallery/032.jpg'" ></div>
-								<div id="DivG33" class="G_Tile" style="background-image: url(images/gallery/033.jpg);" onclick="window.open().location.href='images/gallery/033.jpg'" ></div>
-								<div id="DivG34" class="G_Tile" style="background-image: url(images/gallery/034.jpg);" onclick="window.open().location.href='images/gallery/034.jpg'" ></div>
-								<div id="DivG35" class="G_Tile" style="background-image: url(images/gallery/035.jpg);" onclick="window.open().location.href='images/gallery/035.jpg'" ></div>
-								<div id="DivG36" class="G_Tile" style="background-image: url(images/gallery/036.jpg);" onclick="window.open().location.href='images/gallery/036.jpg'" ></div>
-								<div id="DivG37" class="G_Tile" style="background-image: url(images/gallery/037.jpg);" onclick="window.open().location.href='images/gallery/037.jpg'" ></div>
-								<div id="DivG38" class="G_Tile" style="background-image: url(images/gallery/038.jpg);" onclick="window.open().location.href='images/gallery/038.jpg'" ></div>
-								<div id="DivG39" class="G_Tile" style="background-image: url(images/gallery/039.jpg);" onclick="window.open().location.href='images/gallery/039.jpg'" ></div>
-								<div id="DivG40" class="G_Tile" style="background-image: url(images/gallery/040.jpg);" onclick="window.open().location.href='images/gallery/040.jpg'" ></div>
-								<div id="DivG41" class="G_Tile" style="background-image: url(images/gallery/041.jpg);" onclick="window.open().location.href='images/gallery/041.jpg'" ></div>
-								<div id="DivG42" class="G_Tile" style="background-image: url(images/gallery/042.jpg);" onclick="window.open().location.href='images/gallery/042.jpg'" ></div>
-								<div id="DivG43" class="G_Tile" style="background-image: url(images/gallery/043.jpg);" onclick="window.open().location.href='images/gallery/043.jpg'" ></div>
-								-->
-							</div>
-						</td>
-					<tr/>
-				</table>
-<!--
-				<h3 class="headline_orange">ACCESS</h3>
-				<h3 class="headline_yellow">SAMPLE</h3>
-				<h3 class="headline_green" >SAMPLE</h3>
-				<h3 class="headline_lblue" >SAMPLE</h3>
-				<h3 class="headline_blue"  >SAMPLE</h3>
-				<h3 class="headline_purple">SAMPLE</h3>
-				<h3 class="headline_pink"  >SAMPLE</h3>
-				<h3 class="headline_gray"  >SAMPLE</h3>
-				<h3 class="headline_black" >SAMPLE</h3>
--->
-			<ul>
-		</form>
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation"  
+    data-start="background:black;" data-20="background:white;">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+            <a class="navbar-brand page-scroll" href="#page-top">
+                <i class="fa fa-play-circle"></i> 保土ヶ谷宿場まつり
+            </a>
         </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse" >
+            <ul class="nav navbar-nav" >
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about" data-start="color:rgb(255,255,255);" data-20="color:rgb(241,95,64)">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#download" data-start="color:rgb(255,255,255);" data-20="color:rgb(241,95,64)">Download</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact" data-start="color:rgb(255,255,255);" data-20="color:rgb(241,95,64)">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Intro Header -->
+<header class="intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="brand-heading">保土ヶ谷宿場まつり</h2>
+                    <p class="intro-text"></p>
+                    <a href="#about" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="container content-section text-center">
+    <div class="row">
+        <h2>ACCESS</h2>
+        <p>2016年10月09日(日)～2016年10月10日(月)</p>
+        <p>保土ヶ谷駅西口より徒歩５分.</p>
+    </div>
+    <a href="https://www.google.com/maps/d/embed?mid=zIavlo1mr2WQ.kMfAvpdjc3hc" target=blank>
+        <img src="images/map/ACCESS.jpg"></img>
+    </a><br> ※地図をクリックで詳細地図を開きます
+    <br>
+    <a href="https://www.google.com/maps/d/embed?mid=zIavlo1mr2WQ.kMfAvpdjc3hc" target=blank>開かない場合はこちら</a>
+</section>
+
+<!-- Events Section -->
+<section id="download" class="content-section download-section text-center">
+    <div class="row">
+        <h2>イベント情報</h2>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-xs-12">
+        <a href="file/宿場地図.pdf" target=blank>
+            <img src="images/map/宿場地図.jpg"></img>
+        </a><br> ※地図をクリックで詳細地図を開きます
+        <br>
+        <a href="https://www.google.com/maps/d/embed?mid=zIavlo1mr2WQ.kMfAvpdjc3hc" target=blank>開かない場合はこちら</a>
+        </div>
+
+        <div class="col-lg-12 col-xs-12">
+            <a href="file/.pdf" target=blank>
+                <img src="images/map/kidstown.jpg"></img>
+            </a><br>
+             ※地図をクリックで詳細地図を開きます<br>
+            <a href="file/kidstown.pdf" target=blank>開かない場合はこちら</a>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="container content-section text-center">
+    <div class="row">
+        <h2>ギャラリー</h2>
+    </div>
+    <div class="row">
+        {{ gallery("images/gallery/001.jpg") }} 
+        {{ gallery("images/gallery/002.jpg") }} 
+        {{ gallery("images/gallery/003.jpg") }} 
+        {{ gallery("images/gallery/008.jpg") }} 
+        {{ gallery("images/gallery/009.jpg") }} 
+        {{ gallery("images/gallery/010.jpg") }}
+        {{ gallery("images/gallery/011.jpg") }}
+        {{ gallery("images/gallery/012.jpg") }}
+        {{ gallery("images/gallery/013.jpg") }}
+        {{ gallery("images/gallery/014.jpg") }}
+        {{ gallery("images/gallery/015.jpg") }}
+        {{ gallery("images/gallery/016.jpg") }}
+
+    </div>
+</section>
 {% endblock %}
-
-

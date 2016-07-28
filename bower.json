@@ -17,15 +17,22 @@
   ],
   "dependencies": {
     "bootstrap": "~3.3.6",
-    "skrollr": "~0.6.30"
+    "skrollr": "~0.6.30",
+    "lightbox2": "~2.8.2"
   },
   "overrides": {
     "bootstrap": {
-      "main": "dist/css/bootstrap.css",
-      "dependencies": {}
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"],
+      "dependencies": {
+        "jquery":"2.2.4"
+      }
     },
-    "font-awesome": {
-      "main": "css/font-awesome.css"
+    "lightbox2":{
+      "main": [
+        "dist/css/lightbox.min.css",
+        "dist/js/lightbox.js"]
     }
   }
 }

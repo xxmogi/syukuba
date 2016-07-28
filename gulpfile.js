@@ -6,9 +6,12 @@ var concat = require("gulp-concat");
 var filter = require("gulp-filter");
 var util = require('gulp-util');
 var wiredep = require('wiredep').stream
+var sass = require('gulp-sass');
+var cssnext = require('gulp-cssnext');
 
 var config = require("./config");
 var path = require("path");
+
 
 var opts = {
     defaults: {
@@ -21,12 +24,20 @@ var opts = {
 
 var distDir = path.join('./dist/', config.year);
 
-gulp.task("copy", function() {
+gulp.task("copy-bower", function() {
     gulp.src(["bower_components/**/*"], {
             base: 'bower_components'
         })
         .pipe(gulp.dest(path.join(distDir, "lib")));
 });
+
+gulp.task("copy-assets", function() {
+    gulp.src(["2016/file/**/*","2016/images/**/*"], {
+            base: '2016'
+        })
+        .pipe(gulp.dest(distDir));
+});
+
 
 gulp.task("browser-sync", function() {
     browserSync.init({
@@ -35,6 +46,16 @@ gulp.task("browser-sync", function() {
         }
     });
     gulp.watch("html/**/*.swig", ['templates']);
+    gulp.watch('sass/**/*.scss', ['sass']);
+});
+
+ 
+gulp.task('sass', function () {
+  return gulp.src('./sass/**/main.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(cssnext())
+    .pipe(gulp.dest(path.join(distDir, "css")))
+    .pipe(browserSync.stream());
 });
 
 gulp.task('templates', function() {
@@ -55,4 +76,5 @@ gulp.task('templates', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task("default", ["browser-sync", "templates"]);
+gulp.task("default", ["browser-sync", "templates", "sass", "copy-bower", "copy-assets"]);
+gulp.task("build", ["templates", "sass", "copy-bower", "copy-assets"]);

@@ -6,8 +6,9 @@
 	<meta content="JavaScript" name="vs_defaultClientScript">
 	<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
 	<meta charset="UTF-8">
-	<link href="css/syukuba2015.css" type="text/css" rel="stylesheet">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link href="css/main.css" type="text/css" rel="stylesheet">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- bower:css -->
   <!-- endbower -->
 </head>
@@ -19,7 +20,8 @@
 	<footer>
 		Copyright &copy; 2016 保土ヶ谷宿場まつり実行委員会 All Rights Reserved.
 	</footer>
-
+	  <!-- bower:js -->
+	  <!-- endbower -->
 	<script>
 		(function(i, s, o, g, r, a, m) {
 			i['GoogleAnalyticsObject'] = r;
@@ -36,8 +38,10 @@
 		ga('create', 'UA-80489092-1', 'auto');
 		ga('send', 'pageview');
 	</script>
-	  <!-- bower:js -->
-	  <!-- endbower -->
+	<script type="text/javascript">
+    var s = skrollr.init();
+    </script>
+
 </body>
 
 </html>

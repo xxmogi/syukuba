@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,9 @@
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
+    "gulp-cssnext": "^1.0.1",
     "gulp-filter": "^4.0.0",
+    "gulp-sass": "^2.3.2",
     "gulp-swig": "^0.8.0",
     "main-bower-files": "^2.13.1"
   }
