@@ -11,5 +11,5 @@ deployment:
   production:
     branch: master
     commands:
-      - scp -r ${DEPLOY_YEAR} ${SSH_USER}@${HOST_NAME}:${DEPLOY_DIR}/${DEPLOY_YEAR}
-      - scp -r dist/${DEPLOY_YEAR} ${SSH_USER}@${HOST_NAME}:${DEPLOY_DIR}/${DEPLOY_YEAR}_new
+      - scp -r ${DEPLOY_YEAR} ${SSH_USER}@${HOST_NAME}:${DEPLOY_DIR}/www/${DEPLOY_YEAR}
+      - scp -r dist/${DEPLOY_YEAR} ${SSH_USER}@${HOST_NAME}:${DEPLOY_DIR}/www/${DEPLOY_YEAR}_new
