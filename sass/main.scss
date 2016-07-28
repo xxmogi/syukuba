@@ -172,55 +172,30 @@ a {
         background: rgba(white, 0.1);
     }
     i.animated {
-        -webkit-transition-property: -webkit-transform;
-        -webkit-transition-duration: 1s;
-        -moz-transition-property: -moz-transform;
-        -moz-transition-duration: 1s;
+        transition-property: transform;
+        transition-duration: 1s;
+
     }
     &:hover {
         i.animated {
-            -webkit-animation-name: pulse;
-            -moz-animation-name: pulse;
-            -webkit-animation-duration: 1.5s;
-            -moz-animation-duration: 1.5s;
-            -webkit-animation-iteration-count: infinite;
-            -moz-animation-iteration-count: infinite;
-            -webkit-animation-timing-function: linear;
-            -moz-animation-timing-function: linear;
+            animation-name: pulse;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
         }
     }
 }
 
-@-webkit-keyframes pulse {
+@keyframes pulse {
     from {
-        -webkit-transform: scale(1);
         transform: scale(1);
     }
 
     50% {
-        -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
 
     100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-@-moz-keyframes pulse {
-    from {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -moz-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -moz-transform: scale(1);
         transform: scale(1);
     }
 }
@@ -309,11 +284,6 @@ footer {
     }
 }
 
-::-moz-selection {
-    text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(white, 0.2);
-}
 
 ::selection {
     text-shadow: none;
@@ -325,10 +295,3 @@ img::selection {
     background: transparent;
 }
 
-img::-moz-selection {
-    background: transparent;
-}
-
-body {
-    -webkit-tap-highlight-color: rgba(white, 0.2);
-}

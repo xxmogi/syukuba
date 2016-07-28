@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "bower": "bower install",
     "build": "gulp build"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/xxmogi/syukuba#readme",
   "devDependencies": {
+    "bower": "^1.7.9",
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
@@ -25,6 +27,7 @@
     "gulp-filter": "^4.0.0",
     "gulp-sass": "^2.3.2",
     "gulp-swig": "^0.8.0",
+    "gulp-util": "^3.0.7",
     "main-bower-files": "^2.13.1"
   }
 }

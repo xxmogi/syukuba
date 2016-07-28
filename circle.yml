@@ -4,6 +4,7 @@ machine:
 
 test:
   override:
+    - npm run bower
     - npm run build
 
 deployment:
