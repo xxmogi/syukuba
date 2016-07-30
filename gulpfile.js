@@ -34,8 +34,8 @@ gulp.task("copy-bower", function() {
 });
 
 gulp.task("copy-assets", function() {
-    gulp.src(["2016/file/**/*","2016/images/**/*"], {
-            base: '2016'
+    gulp.src(["assets/file/**/*","assets/images/**/*"], {
+            base: 'assets'
         })
         .pipe(gulp.dest(distDir));
 });
