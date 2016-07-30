@@ -18,21 +18,29 @@
   "dependencies": {
     "bootstrap": "~3.3.6",
     "skrollr": "~0.6.30",
-    "lightbox2": "~2.8.2"
+    "lightbox2": "~2.8.2",
+    "font-awesome": "^4.6.3"
   },
   "overrides": {
     "bootstrap": {
       "main": [
         "dist/css/bootstrap.css",
-        "dist/js/bootstrap.js"],
+        "dist/js/bootstrap.js"
+      ],
       "dependencies": {
-        "jquery":"2.2.4"
+        "jquery": "2.2.4"
       }
     },
-    "lightbox2":{
+    "lightbox2": {
       "main": [
         "dist/css/lightbox.min.css",
-        "dist/js/lightbox.js"]
+        "dist/js/lightbox.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.min.css"
+      ]
     }
   }
 }

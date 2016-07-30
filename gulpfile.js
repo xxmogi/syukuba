@@ -8,6 +8,8 @@ var util = require('gulp-util');
 var wiredep = require('wiredep').stream
 var sass = require('gulp-sass');
 var cssnext = require('gulp-cssnext');
+var plumber = require("gulp-plumber");
+var notify = require("gulp-notify");
 
 var config = require("./config");
 var path = require("path");
@@ -60,6 +62,9 @@ gulp.task('sass', function () {
 
 gulp.task('templates', function() {
     gulp.src('html/pages/*.swig')
+        .pipe(plumber({
+            errorHandler: notify.onError("Error: <%= error.message %>") 
+        }))
         .pipe(swig(opts))
         .pipe(wiredep({
             ignorePath: '../../bower_components/',
