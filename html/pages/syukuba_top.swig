@@ -49,6 +49,7 @@
 <section id="event" class="container-fluid content-section event-section text-center">
     <div class="row" style="bakground-color: black">
         <h2>イベント情報</h2>
+         <p>昨年開催されたイベントの情報です。</p>
         <a href="file/宿場地図.pdf" target="blank">
             <img src="images/map/宿場地図.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a><br> ※地図をクリックで詳細地図を開きます
@@ -67,6 +68,7 @@
 <section id="about" class="container-fluid content-section text-center">
     <div class="row">
         <h2>ギャラリー</h2>
+        <p> 昨年までの宿場まつりの様子。
     </div>
     <div class="row">
         {{ gallery.image("images/gallery/001.jpg") }} 
