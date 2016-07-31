@@ -22,7 +22,7 @@
 <section id="about" class="container-fluid content-section text-center">
     <div class="row">
         <h2>ACCESS</h2>
-        <p>2016年10月09日(日)～2016年10月10日(月)</p>
+        <p>2016年10月9日(日)～10月10日(月)</p>
         <p>保土ヶ谷駅西口より徒歩５分.</p>
     </div>
     <div class="row">

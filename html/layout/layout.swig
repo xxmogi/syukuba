@@ -6,11 +6,12 @@
 	<meta content="JavaScript" name="vs_defaultClientScript">
 	<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
 	<meta charset="UTF-8">
-	<link href="css/main.css" type="text/css" rel="stylesheet">
+
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <!-- bower:css -->
-  <!-- endbower -->
+ 	<!-- bower:css -->
+  	<!-- endbower -->
+  	<link href="css/main.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -47,7 +48,11 @@
 {% block content %}{% endblock %}
 
 	<footer>
-		Copyright &copy; 2016 保土ヶ谷宿場まつり実行委員会 All Rights Reserved.
+		<div class="container">
+			<p class="text-muted">
+				Copyright &copy; 2016 保土ヶ谷宿場まつり実行委員会 All Rights Reserved.
+			</p>
+		</div>
 	</footer>
 
 	  <!-- bower:js -->
