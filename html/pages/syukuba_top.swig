@@ -34,6 +34,15 @@
     </div>
 </section>
 
+<section class="container-fluid content-section text-center">
+    <div class="row">
+        <h2>宿場小町投票開始</h2>
+        <p>宿場小町の投票を開始しました。</p>
+        <p>投票サイトは<a href="https://creativesurvey.com/ng/reply/24f285748232dd2e79d44fbe24b034" target="blank">こちら</a></p>
+    </div>
+
+</section>
+
 <section id="komachi" class="container-fluid content-section text-center">
     <div class="row" style="bakground-color: black">
         <h2>宿場小町募集</h2>
