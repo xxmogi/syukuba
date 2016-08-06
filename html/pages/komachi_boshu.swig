@@ -5,27 +5,42 @@
 
 {% block content %}
 
-<section class="container-fluid page-head text-center">
+<section class="container page-head">
 	<div class="row"> 
 	<h1> 宿場小町 </h1>
+	<hr/>
 		<img src="images/komachi/top/komachi_top.jpg" class="img-responsive" style="margin: 0 auto;">
+	</div>
+	<div class="row">
 		<h2> 2016年宿場小町募集</h2>
-		<p>
-				宿場祭りでは2016年の宿場小町を募集しています。<br>
+				宿場祭りでは2016年の宿場小町を<br>
+				募集しています。<br>
 				港のヨコ保土ヶ谷宿場町で<br>
 				祭りを彩る小町になってみませんか？<br>
 				<br>
-				祭り当日は来場者へのお披露目やイベントへの参加<br>
-				祭り後は地元保土ヶ谷の紹介やPR活動を行います。<br>
-		</p>
+				祭り当日は来場者へのお披露目や<br>
+				イベントへの参加<br>
+				祭り後は地元保土ヶ谷の紹介や<br>
+				PR活動を行います。<br>
 		<p>
 			<a href="file/小町募集.doc" target="_blank">募集要項はこちらから</a>
 		</p>
+	</div>
+</section>
+
+<section class="container text-center">
+<div class="row">
+<h2> PR動画 </h2>
+<hr/>
+	<div class="embed-responsive embed-responsive-16by9">
+		<iframe src="https://www.youtube.com/embed/FyHbQOKNeaE" frameborder="0" allowfullscreen></iframe>
+	</div>
+</div>
 </section>
 
 <section class="container-fluid content-section text-center">
 <div class="row">
-	<h3>2015年宿場小町の活動</h3>
+	<h2>2015年宿場小町の活動</h2>
 	<!-- start feedwind code -->
 	<script type="text/javascript">
 	//<![CDATA[
@@ -45,7 +60,7 @@
 
 <section class="container-fluid content-section text-center">
 <div class="row">
-<h3>2015年宿場小町GALLERY</h3>
+<h2>2015年宿場小町GALLERY</h2>
 </div>
 	<div class="row">
 		<div class="col-xs-12  col-md-4">
