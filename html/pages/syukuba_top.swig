@@ -2,6 +2,13 @@
 
 {% extends "../layout/layout.swig" %} 
 
+{% block meta %}
+    <meta property="og:title" content="保土ヶ谷宿場まつり">
+    <meta property="og:description" content="2016年 保土ヶ谷宿場まつりHP (開催日 2016/10/9〜10)">
+    <meta property="og:url" content="http://syukuba.net/2016/syukuba_top.html">
+    <meta property="og:image" content="http://syukuba.net/2016/images/top/top_img3.jpg">
+{% endblock %}
+
 {% block content %}
 
 <!-- Intro Header -->
@@ -78,6 +85,18 @@
     </div>
 </section>
 
+<section id="facebook" class="container-fluid content-section text-center">
+<div class="row">
+    <h2> Facebook </h2>
+    <hr/>
+    <p> 保土ヶ谷宿場まつりのFacebookページです。 </p>
+</div>
+<div class="row">
+    <div class="fb-page" data-href="https://www.facebook.com/hodogayasyukubafest" data-small-header="false" data-width="500" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/hodogayasyukubafest" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/hodogayasyukubafest">保土ケ谷宿場まつり</a></blockquote></div>
+</div>
+
+</section>
+
 <section id="about" class="container-fluid content-section text-center">
     <div class="row">
         <h2>ギャラリー</h2>
@@ -104,6 +123,14 @@
 {% endblock %}
 
 {% block scripts %}
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script>
 
 </script>
