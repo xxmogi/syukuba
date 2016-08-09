@@ -6,7 +6,7 @@
     <meta property="og:title" content="保土ヶ谷宿場まつり">
     <meta property="og:description" content="保土ヶ谷宿場まつり、宿場小町の投票を開始しました。">
     <meta property="og:url" content="http://syukuba.net/2016/komachi_tohyo.html">
-    <meta property="og:image" content="http://syukuba.net/2016/images/komachi/boshu/komachi_boshu.jpg">
+    <meta property="og:image" content="http://syukuba.net/2016/images/komachi/boshu/komachi_boshu_fb.jpg">
 {% endblock %}
 
 {% block content %}
