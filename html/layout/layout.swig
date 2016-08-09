@@ -1,14 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 
-<head>
+<head prefix=”og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#”>
 	<title>保土ヶ谷宿場まつり{{ year }}</title>
-	<meta content="JavaScript" name="vs_defaultClientScript">
-	<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
 	<meta charset="UTF-8">
-
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	{% block meta %}{% endblock %}
  	<!-- bower:css -->
   	<!-- endbower -->
   	<link href="css/main.css" type="text/css" rel="stylesheet">
