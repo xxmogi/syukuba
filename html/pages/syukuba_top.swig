@@ -40,7 +40,7 @@
         <h2>宿場小町投票開始</h2>
         <hr/>
         <p>宿場小町の投票を開始しました。</p>
-        <p>投票サイトは<a href="https://creativesurvey.com/ng/reply/24f285748232dd2e79d44fbe24b034" target="blank">こちら</a></p>
+        <p>投票サイトは<a href="komachi_tohyo.html" target="blank">こちら</a></p>
     </div>
 
 </section>
@@ -85,18 +85,18 @@
         <p> 昨年までの宿場まつりの様子。
     </div>
     <div class="row">
-        {{ gallery.image("images/gallery/001.jpg") }} 
-        {{ gallery.image("images/gallery/002.jpg") }} 
-        {{ gallery.image("images/gallery/003.jpg") }} 
-        {{ gallery.image("images/gallery/008.jpg") }} 
-        {{ gallery.image("images/gallery/009.jpg") }} 
-        {{ gallery.image("images/gallery/010.jpg") }}
-        {{ gallery.image("images/gallery/011.jpg") }}
-        {{ gallery.image("images/gallery/012.jpg") }}
-        {{ gallery.image("images/gallery/013.jpg") }}
-        {{ gallery.image("images/gallery/014.jpg") }}
-        {{ gallery.image("images/gallery/015.jpg") }}
-        {{ gallery.image("images/gallery/016.jpg") }}
+        {{ gallery.image("images/gallery/001.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/002.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/003.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/008.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/009.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/010.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/011.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/012.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/013.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/014.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/015.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/016.jpg", "保土ヶ谷宿場まつり") }}
 
     </div>
 </section>
