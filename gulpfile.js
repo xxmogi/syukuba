@@ -10,6 +10,9 @@ var sass = require('gulp-sass');
 var cssnext = require('gulp-cssnext');
 var plumber = require("gulp-plumber");
 var notify = require("gulp-notify");
+var open = require("gulp-open");
+var imagemin = require("gulp-imagemin");
+
 
 var config = require("./config");
 var path = require("path");
@@ -34,11 +37,17 @@ gulp.task("copy-bower", function() {
 });
 
 gulp.task("copy-assets", function() {
-    gulp.src(["assets/file/**/*","assets/images/**/*"], {
+    gulp.src(["assets/file/**/*"], {
             base: 'assets'
         })
         .pipe(gulp.dest(distDir));
 });
+
+gulp.task("images", function() {
+    gulp.src(["assets/images/**/*.jpg"])
+    .pipe(imagemin())
+    .pipe(gulp.dest(path.join(distDir, "images")));
+})
 
 
 gulp.task("browser-sync", function() {
@@ -82,4 +91,4 @@ gulp.task('templates', function() {
 });
 
 gulp.task("default", ["browser-sync", "templates", "sass", "copy-bower", "copy-assets"]);
-gulp.task("build", ["templates", "sass", "copy-bower", "copy-assets"]);
+gulp.task("build", ["templates", "sass", "copy-bower", "copy-assets", "images"]);
