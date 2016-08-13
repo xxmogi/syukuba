@@ -42,6 +42,15 @@
     </div>
 </section>
 
+<section id="crowd" class="container-fluid content-section text-center">
+    <div class="row">
+        <h2>クラウドファンディング</h2>
+        <hr/>
+        <p>保土ヶ谷宿場まつり実行委員会は今年度からクラウドファンディングによる資金調達に挑戦しています。</p>
+        <p>詳細は<a href="crowdfunding.html">こちらのページ</a>へ。</p>
+    </div>
+</section>
+
 <section class="container-fluid content-section text-center" data-800="opacity:0;" data-1000="opacity:1;">
     <div class="row" >
         <h2>宿場小町投票開始</h2>
