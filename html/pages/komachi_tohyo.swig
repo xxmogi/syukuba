@@ -35,7 +35,8 @@
         {{ gallery.image("images/vote/entry_08.jpg") }}
         {{ gallery.image("images/vote/entry_09.jpg") }}
         {{ gallery.image("images/vote/entry_10.jpg") }} 
-        {{ gallery.image("images/vote/entry_11.jpg") }} 
+        {{ gallery.image("images/vote/entry_11.jpg") }}
+        {{ gallery.image("images/vote/entry_12.jpg") }} 
     </div>
 </section>
 
