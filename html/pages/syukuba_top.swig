@@ -4,7 +4,7 @@
 
 {% block meta %}
     <meta property="og:title" content="保土ヶ谷宿場まつり">
-    <meta property="og:description" content="2016年 保土ヶ谷宿場まつりHP (開催日 2016/10/9〜10)">
+    <meta property="og:description" content="2016年 保土ヶ谷宿場まつりHP (開催日 2016年10/9〜10)">
     <meta property="og:url" content="http://syukuba.net/2016/syukuba_top.html">
     <meta property="og:image" content="http://syukuba.net/2016/images/top/top_img3.jpg">
 {% endblock %}
@@ -16,10 +16,7 @@
     <div class="intro-body">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2 class="brand-heading"></h2>
-                    <p class="intro-text"></p>
-                </div>
+
             </div>
         </div>
     </div>

@@ -131,7 +131,7 @@ a {
     padding: 100px 0;
     text-align: center;
     color: black;
-    background: url(../images/top/top_img3.jpg) no-repeat bottom center scroll ;
+    background: url(../images/top/top.jpg) no-repeat bottom center scroll ;
     background-color: black;
     background-size: cover;
     .intro-body {
@@ -170,51 +170,7 @@ a {
     }
 }
 
-.btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid white;
-    border-radius: 100% !important;
-    font-size: 40px;
-    color: black;
-    background: rgba(0,0,0,0.6);
-    transition: background .3s ease-in-out;
-    &:hover,
-    &:focus {
-        outline: none;
-        color: white;
-        background: rgba(white, 0.1);
-    }
-    i.animated {
-        transition-property: transform;
-        transition-duration: 1s;
 
-    }
-    &:hover {
-        i.animated {
-            animation-name: pulse;
-            animation-duration: 1.5s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
-    }
-}
-
-@keyframes pulse {
-    from {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.2);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
 
 .content-section {
     padding-top: 30px;
@@ -231,6 +187,7 @@ a {
 @media(min-width:767px) {
     .content-section {
         padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .event-section {
