@@ -10,18 +10,18 @@
 {% endblock %}
 
 {% block content %}
-<section class="container page-head">
+<section class="container-fluid page-head">
 <div class="row">
-    <h1>宿場小町　投票開始</h1>
+    <h2>宿場小町　投票開始</h2>
     <hr/>
-    <h2>　<a href="https://creativesurvey.com/ng/reply/24f285748232dd2e79d44fbe24b034">投票会場はこちら &gt;&gt;</a></h2>
+    <h2>　<a href="https://creativesurvey.com/ng/reply/24f285748232dd2e79d44fbe24b034">投票会場はこちら</a></h2>
 </div>
 <div class="row">
     <p>2016年宿場小町の投票を開始しました。</p>
-    <p>引き続き宿場小町候補の募集も行っております。募集の詳細は
-        <a href="komachi_boshu.html">こちら</a></p>
 </div>
-<div class="row">※投票はお一人様一回までとさせていただきます。</div>
+<div class="row">
+<p>※投票はお一人様一回までとさせていただきます。</p>
+</div>
 </section>
 <section class="container">
     <div class="row">
@@ -43,7 +43,7 @@
 
 <section class="container page-head">
 <div class="row">
-    <h2>　<a href="https://creativesurvey.com/ng/reply/24f285748232dd2e79d44fbe24b034"> 投票会場はこちら &gt;&gt;</a></h2>
+    <h2>　<a href="https://creativesurvey.com/ng/reply/24f285748232dd2e79d44fbe24b034">投票会場はこちら</a></h2>
 </div>
 </section>
 

@@ -44,53 +44,46 @@
 
 <section id="crowd" class="container-fluid content-section text-center">
     <div class="row">
-        <h2>クラウドファンディング</h2>
+        <h3>クラウドファンディング</h3>
         <hr/>
         <p>保土ヶ谷宿場まつり実行委員会は今年度からクラウドファンディングによる資金調達に挑戦しています。</p>
         <p>詳細は<a href="crowdfunding.html">こちらのページ</a>へ。</p>
     </div>
 </section>
 
-<section class="container-fluid content-section text-center" data-800="opacity:0;" data-1000="opacity:1;">
-    <div class="row" >
-        <h2>宿場小町投票開始</h2>
-        <hr/>
-        <p>宿場小町の投票を開始しました。</p>
-        <p>投票サイトは<a href="komachi_tohyo.html" target="blank">こちら</a></p>
-    </div>
-
-</section>
 
 <section id="komachi" class="container-fluid content-section text-center">
     <div class="row" style="bakground-color: black">
-        <h2>宿場小町募集</h2>
+        <h2>宿場小町</h2>
         <hr/>
-        <p>保土ヶ谷宿場まつりでは、一緒に盛り上げてくれる宿場小町を募集しています。</p>
-        <a href="komachi_boshu.html">
+        <p class="text-danger">宿場小町の募集は終了しました。</p>
+        <p> たくさんのご応募ありがとうございました。</p>
+        <p> 引き続き宿場小町の投票を行っています。ぜひ投票してください。</p>
+         <p>投票は<a href="komachi_tohyo.html">こちらのページ</a>へ。</p>
+        <a href="komachi_tohyo.html">
             <img src="images/komachi/boshu/komachi_boshu.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
-        <p>募集の詳細は<a href="komachi_boshu.html">こちらのページ</a>へ。</p>
+       
     </div>
 </section>
 
 <!-- Events Section -->
 <section id="event" class="container-fluid content-section event-section text-center">
-    <div class="row" style="bakground-color: black">
+    <div class="row">
         <h2>イベント情報</h2>
         <hr/>
-         <p>昨年開催されたイベントの情報です。</p>
+        <p>昨年開催されたイベントの情報です。</p>
         <a href="file/宿場地図.pdf" target="blank">
-            <img src="images/map/宿場地図.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+            <img src="images/map/宿場地図.jpg" class="img-responsive center-block"></img>
         </a><br> ※地図をクリックで詳細地図を開きます
         <br>
         <a href="https://www.google.com/maps/d/embed?mid=zIavlo1mr2WQ.kMfAvpdjc3hc" target=blank>開かない場合はこちら</a>
 
-
-            <a href="file/kidstown.pdf" target="blank">
-                <img src="images/map/kidstown.jpg" class="img-responsive" style="margin: 0 auto;"></img>
-            </a>
+        <a href="file/kidstown.pdf" class="img-responsive" target="blank">
+            <img src="images/map/kidstown.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+        </a>
              ※地図をクリックで詳細地図を開きます<br>
-            <a href="file/kidstown.pdf" target=blank>開かない場合はこちら</a>
+        <a href="file/kidstown.pdf" target=blank>開かない場合はこちら</a>
     </div>
 </section>
 
