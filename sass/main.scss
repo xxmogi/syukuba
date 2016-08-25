@@ -6,6 +6,10 @@ body {
     height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size : 18px;
+    padding-top:50px;
+    @media(min-width:768px) {
+        padding-top:0px;
+    }
 }
 
 html {
