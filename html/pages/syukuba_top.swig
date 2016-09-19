@@ -69,9 +69,9 @@
     <div class="row">
         <h2>イベント情報</h2>
         <hr/>
-        <p>昨年開催されたイベントの情報です。</p>
-        <a href="file/宿場地図.pdf" target="blank">
-            <img src="images/map/宿場地図.jpg" class="img-responsive center-block"></img>
+        <p> 2016年のイベント情報です </p>
+        <a href="file/map.pdf" target="blank">
+            <img src="images/map/map.jpg" class="img-responsive center-block"></img>
         </a><br> ※地図をクリックで詳細地図を開きます
         <br>
         <a href="https://www.google.com/maps/d/embed?mid=zIavlo1mr2WQ.kMfAvpdjc3hc" target=blank>開かない場合はこちら</a>
