@@ -4,7 +4,7 @@
 
 {% block meta %}
     <meta property="og:title" content="保土ヶ谷宿場まつり">
-    <meta property="og:description" content="2016年 保土ヶ谷宿場まつりHP (開催日 2016年10/9〜10)">
+    <meta property="og:description" content="2016年 保土ヶ谷宿場まつり (開催日 2016年10/9〜10)">
     <meta property="og:url" content="http://syukuba.net/2016/syukuba_top.html">
     <meta property="og:image" content="http://syukuba.net/2016/images/top/top_img3.jpg">
 {% endblock %}
@@ -53,10 +53,9 @@
     <div class="row" style="bakground-color: black">
         <h2>宿場小町</h2>
         <hr/>
-        <p class="text-danger">宿場小町の募集は終了しました。</p>
+        <p class="text-danger">宿場小町の募集 投票は終了しました。</p>
         <p> たくさんのご応募ありがとうございました。</p>
-        <p> 引き続き宿場小町の投票を行っています。ぜひ投票してください。</p>
-         <p>投票は<a href="komachi_tohyo.html">こちらのページ</a>へ。</p>
+        <p> 結果は10月初旬に発表されます。</p>
         <a href="komachi_tohyo.html">
             <img src="images/komachi/boshu/komachi_boshu.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
@@ -69,18 +68,12 @@
     <div class="row">
         <h2>イベント情報</h2>
         <hr/>
-        <p> 2016年のイベント情報です </p>
+        <p> 2016年のイベント情報 </p>
         <a href="file/map.pdf" target="blank">
             <img src="images/map/map.jpg" class="img-responsive center-block"></img>
         </a><br> ※地図をクリックで詳細地図を開きます
         <br>
         <a href="https://www.google.com/maps/d/embed?mid=zIavlo1mr2WQ.kMfAvpdjc3hc" target=blank>開かない場合はこちら</a>
-
-        <a href="file/kidstown.pdf" class="img-responsive" target="blank">
-            <img src="images/map/kidstown.jpg" class="img-responsive" style="margin: 0 auto;"></img>
-        </a>
-             ※地図をクリックで詳細地図を開きます<br>
-        <a href="file/kidstown.pdf" target=blank>開かない場合はこちら</a>
     </div>
 </section>
 
@@ -88,7 +81,7 @@
 <div class="row">
     <h2> Facebook </h2>
     <hr/>
-    <p> 保土ヶ谷宿場まつりのFacebookページです。 </p>
+    <p> 保土ヶ谷宿場まつりのFacebookページ。 </p>
 </div>
 <div class="row">
     <div class="fb-page" data-href="https://www.facebook.com/hodogayasyukubafest" data-small-header="false" data-width="500" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/hodogayasyukubafest" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/hodogayasyukubafest">保土ケ谷宿場まつり</a></blockquote></div>
