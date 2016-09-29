@@ -40,7 +40,11 @@ p {
         font-size: 20px;
         line-height: 1.6;
     }
+    &.caption {
+        margin-bottom: 30px;
+    }
 }
+
 
 hr {
   border-color : $theme-primary;
@@ -149,7 +153,7 @@ a {
         }
     }
     @media(min-width:768px) {
-        height: 90vh;
+        height: 95vh;
         padding: 0;
         .intro-body {
             .brand-heading {
@@ -187,6 +191,10 @@ a {
     background-size: cover;
 }
 
+.color-section {
+    background-color :#f15f40;
+    background-size: cover;
+}
 
 @media(min-width:767px) {
     .content-section {
@@ -195,7 +203,8 @@ a {
     }
 
     .event-section {
-        padding: 100px 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
 }
@@ -242,3 +251,19 @@ img::selection {
     background: transparent;
 }
 
+
+.embed {
+    position :relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    iframe {
+        top: 0px;
+        left: 0px;
+        height:100%;
+    }
+}

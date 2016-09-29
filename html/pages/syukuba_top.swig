@@ -1,15 +1,12 @@
-{% import "../macro/gallery.swig" as gallery %}
-
+{% import "../macro/gallery.swig" as gallery %} 
 {% extends "../layout/layout.swig" %} 
 
 {% block meta %}
-    <meta property="og:title" content="保土ヶ谷宿場まつり">
-    <meta property="og:description" content="2016年 保土ヶ谷宿場まつり (開催日 2016年10/9〜10)">
-    <meta property="og:url" content="http://syukuba.net/2016/syukuba_top.html">
-    <meta property="og:image" content="http://syukuba.net/2016/images/top/top_img3.jpg">
-{% endblock %}
-
-{% block content %}
+<meta property="og:title" content="保土ヶ谷宿場まつり">
+<meta property="og:description" content="2016年 保土ヶ谷宿場まつり (開催日 2016年10/9〜10)">
+<meta property="og:url" content="http://syukuba.net/2016/syukuba_top.html">
+<meta property="og:image" content="http://syukuba.net/2016/images/top/top_img3.jpg"> 
+{% endblock %} {% block content %}
 
 <!-- Intro Header -->
 <header class="intro">
@@ -32,18 +29,21 @@
     </div>
     <div class="row">
         <a href="https://www.google.com/maps/d/embed?mid=zIavlo1mr2WQ.kMfAvpdjc3hc" target=blank>
-        <img src="images/map/ACCESS.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+            <img src="images/map/ACCESS.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a><br> ※地図をクリックで詳細地図を開きます
         <br>
         <a href="https://www.google.com/maps/d/embed?mid=zIavlo1mr2WQ.kMfAvpdjc3hc" target=blank>開かない場合はこちら</a>
     </div>
 </section>
 
-<section id="crowd" class="container-fluid content-section text-center">
+<section id="crowd" class="container-fluid content-section color-section text-center">
     <div class="row">
         <h3>クラウドファンディング</h3>
         <hr/>
-        <p>保土ヶ谷宿場まつり実行委員会は今年度からクラウドファンディングによる資金調達に挑戦しています。</p>
+        <p class="caption">保土ヶ谷宿場まつり実行委員会は今年度からクラウドファンディングによる資金調達に挑戦しています。</p>
+        <a href="crowdfunding.html">
+            <img src="images/top/8.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+        </a>
         <p>詳細は<a href="crowdfunding.html">こちらのページ</a>へ。</p>
     </div>
 </section>
@@ -59,7 +59,7 @@
         <a href="komachi_tohyo.html">
             <img src="images/komachi/boshu/komachi_boshu.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
-       
+
     </div>
 </section>
 
@@ -70,29 +70,38 @@
         <hr/>
         <p> 2016年のイベント情報 </p>
         <a href="file/map.pdf" target="blank">
-            <img src="images/map/map.jpg" class="img-responsive center-block"></img>
-        </a><br> ※地図をクリックで詳細地図を開きます
+            <img src="images/map/map.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+        </a><br> ※地図をクリックで詳細を開きます
         <br>
-        <a href="https://www.google.com/maps/d/embed?mid=zIavlo1mr2WQ.kMfAvpdjc3hc" target=blank>開かない場合はこちら</a>
+        <a href="file/map.pdf" target=blank>開かない場合はこちら</a>
+    </div>
+    <div class="row">
+        <a href="file/kidstown.pdf" target="blank">
+            <img src="images/map/kidstown.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+        </a><br> ※地図をクリックで詳細を開きます
+        <br>
+        <a href="file/kidstown.pdf" target="blank">開かない場合はこちら</a>
     </div>
 </section>
 
 <section id="facebook" class="container-fluid content-section text-center">
-<div class="row">
-    <h2> Facebook </h2>
-    <hr/>
-    <p> 保土ヶ谷宿場まつりのFacebookページ。 </p>
-</div>
-<div class="row">
-    <div class="fb-page" data-href="https://www.facebook.com/hodogayasyukubafest" data-small-header="false" data-width="500" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/hodogayasyukubafest" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/hodogayasyukubafest">保土ケ谷宿場まつり</a></blockquote></div>
-</div>
+    <div class="row">
+        <h2> Facebook </h2>
+        <hr/>
+        <p> 保土ヶ谷宿場まつりのFacebookページ。 </p>
+    </div>
+    <div class="row">
+        <div class="fb-page" data-href="https://www.facebook.com/hodogayasyukubafest" data-small-header="false" data-width="500" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/hodogayasyukubafest" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/hodogayasyukubafest">保土ケ谷宿場まつり</a></blockquote>
+        </div>
+    </div>
 
 </section>
 
 <section id="about" class="container-fluid content-section text-center">
     <div class="row">
         <h2>ギャラリー</h2>
-        <hr/>        
+        <hr/>
         <p> 昨年までの宿場まつりの様子。
     </div>
     <div class="row">
@@ -101,29 +110,29 @@
         {{ gallery.image("images/gallery/003.jpg", "保土ヶ谷宿場まつり") }} 
         {{ gallery.image("images/gallery/008.jpg", "保土ヶ谷宿場まつり") }} 
         {{ gallery.image("images/gallery/009.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/010.jpg", "保土ヶ谷宿場まつり") }}
-        {{ gallery.image("images/gallery/011.jpg", "保土ヶ谷宿場まつり") }}
-        {{ gallery.image("images/gallery/012.jpg", "保土ヶ谷宿場まつり") }}
-        {{ gallery.image("images/gallery/013.jpg", "保土ヶ谷宿場まつり") }}
-        {{ gallery.image("images/gallery/014.jpg", "保土ヶ谷宿場まつり") }}
-        {{ gallery.image("images/gallery/015.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/010.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/011.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/012.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/013.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/014.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/015.jpg", "保土ヶ谷宿場まつり") }} 
         {{ gallery.image("images/gallery/016.jpg", "保土ヶ谷宿場まつり") }}
 
     </div>
 </section>
 
-{% endblock %}
-
-{% block scripts %}
+{% endblock %} {% block scripts %}
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.7";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 <script>
-
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.7";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<script>
 </script>
 {% endblock %}
