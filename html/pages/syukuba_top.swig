@@ -153,6 +153,9 @@
 
     </div>
 </section>
+<p id="to-top">
+<a href="#" class="fa fa-caret-square-o-up" aria-hidden="true"> Top</a>
+</p>
 
 {% endblock %} {% block scripts %}
 <div id="fb-root"></div>
@@ -168,13 +171,29 @@
 </script>
 <script>
 $(function() {
-    $('a').click(function() {
-        var speed = 400;
+    $('nav a[href^="#"]').click(function() {
+        var speed = 300;
         var href = $(this).attr("href");
         var target = $(href == "#" || href == "" ? "html": href);
         var position = target.offset().top - $("nav").outerHeight();
         console.log(position);
         $("body,html").animate({scrollTop:position}, speed, "swing");
+        return false;
+    });
+
+    var topBtn = $('#to-top');    
+    topBtn.hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 120) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 800, "swing");
         return false;
     });
 });

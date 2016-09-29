@@ -267,3 +267,22 @@ img::selection {
         height:100%;
     }
 }
+#to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 150%;
+}
+#to-top a {
+ 
+    width: 100px;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    color : $theme-primary;
+}
+#to-top a:hover {
+    color: lighten($theme-primary,10%);
+}
