@@ -14,8 +14,6 @@
 
 <body>
 
-{% include "navigation.swig"%}
-
 {% block content %}{% endblock %}
 
 	<footer>

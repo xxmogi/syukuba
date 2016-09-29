@@ -10,6 +10,8 @@
 {% endblock %}
 
 {% block content %}
+{% include "../layout/navigation.swig"%}
+
 <section class="container-fluid page-head">
 <div class="row">
     <h2>宿場小町</h2>

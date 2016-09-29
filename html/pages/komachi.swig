@@ -5,6 +5,8 @@
 
 {% block content %}
 
+{% include "../layout/navigation.swig"%}
+
 <section class="container-fluid page-head text-center">
 	<div class="row"> 
 	<h1> 宿場小町 </h1>

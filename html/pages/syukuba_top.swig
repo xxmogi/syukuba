@@ -8,6 +8,39 @@
 <meta property="og:image" content="http://syukuba.net/2016/images/top/top_img3.jpg"> 
 {% endblock %} {% block content %}
 
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+            <a class="navbar-brand" href="syukuba_top.html">
+               保土ヶ谷宿場まつり
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse" >
+            <ul class="nav navbar-nav" >
+                <li>
+                    <a href="#about">ACCESS</a>
+                </li>
+                <li>
+                    <a href="#crowd">クラウドファンディング</a>
+                </li>
+                <li>
+                    <a href="#komachi">宿場小町</a>
+                </li>
+                <li>
+                    <a href="#event">イベント情報</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
 <!-- Intro Header -->
 <header class="intro">
     <div class="intro-body">
@@ -36,15 +69,15 @@
     </div>
 </section>
 
-<section id="crowd" class="container-fluid content-section color-section text-center">
+<section id="crowd" class="container-fluid content-section event-section text-center">
     <div class="row">
         <h3>クラウドファンディング</h3>
         <hr/>
         <p class="caption">保土ヶ谷宿場まつり実行委員会は今年度からクラウドファンディングによる資金調達に挑戦しています。</p>
-        <a href="crowdfunding.html">
+        <a href="https://cf.yokohama.localgood.jp/project/hodogayashukuba2016/home" target="blank">
             <img src="images/top/8.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
-        <p>詳細は<a href="crowdfunding.html">こちらのページ</a>へ。</p>
+        <p>詳細は<a href="https://cf.yokohama.localgood.jp/project/hodogayashukuba2016/home" target="blank">こちらのページ</a>へ。</p>
     </div>
 </section>
 
@@ -134,5 +167,16 @@
     }(document, 'script', 'facebook-jssdk'));
 </script>
 <script>
+$(function() {
+    $('a').click(function() {
+        var speed = 400;
+        var href = $(this).attr("href");
+        var target = $(href == "#" || href == "" ? "html": href);
+        var position = target.offset().top - $("nav").outerHeight();
+        console.log(position);
+        $("body,html").animate({scrollTop:position}, speed, "swing");
+        return false;
+    });
+});
 </script>
 {% endblock %}
