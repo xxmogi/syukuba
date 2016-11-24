@@ -89,7 +89,7 @@
         <p class="text-danger">宿場小町の募集 投票は終了しました。</p>
         <p> たくさんのご応募ありがとうございました。</p>
         <p> 結果は10/9(日)の表彰式で発表されます。</p>
-        <a href="komachi_tohyo.html">
+        <a href="komachi.html">
             <img src="images/komachi/boshu/komachi_boshu.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
 

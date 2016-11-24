@@ -20,7 +20,7 @@
                     <a href="syukuba_top.html">トップページ</a>
                 </li>
                 <li>
-                    <a href="komachi_tohyo.html">宿場小町</a>
+                    <a href="komachi.html">宿場小町</a>
                 </li>
                 <li>
                     <a href="crowdfunding.html">クラウドファンディング</a>

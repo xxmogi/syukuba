@@ -9,21 +9,64 @@
 
 <section class="container-fluid page-head text-center">
 	<div class="row"> 
-	<h1> 宿場小町 </h1>
-		<img src="images/komachi/top/komachi_top.jpg" class="img-responsive" style="margin: 0 auto;">
-	<div id="Contents" style="width:100%">
-								<span style="white-space:nowrap;overflow:hidden;display:block;" >
-									こんにちは。<br>
-									2代目宿場小町に就任した山田彩香です。<br>
-									ネットで投票して下さったみなさん<br>
-									当日お祭りに遊びに来て下さったみなさん<br>
-									本当にありがとうございました。<br>
-									<br>
-									これから一年間、小町として<br>
-									保土ヶ谷の素敵なお店をリサーチしていきたいと<br>
-									思っているので、よろしくお願いします。<br>
-								</span>
-							<div>
+		<h1> 宿場小町 </h1>
+    <p>2016年宿場小町が決まりました。</p>
+		<p>たくさんの投票ありがとうございました。</p>
+	</div>
+</section>
+
+<section class="container-fluid">
+	<div class="row">
+
+  	<div class="col-sm-4 col-xs-12">
+			<div class="thumbnail">
+			  <a href="images/komachi/top/komachi_03.jpg" data-lightbox="image-2" data-title="宿場小町">
+      		<img class="img-responsive" src="images/komachi/top/komachi_03.jpg">
+    		</a>
+				<div class="caption">
+					<h4 class="media-heading">比嘉 咲喜代</h4>
+					<span>
+					皆さんこんにちは<br>
+					この度三代目宿場小町に選ばれました比嘉ですヽ(*'0'*)ﾂ<br>
+					保土ヶ谷周辺の飲み屋さんを沢山紹介していきますので<br>
+					よろしくお願いします 笑<br>
+					</span>
+				</div>
+			</div><!-- thumbnail -->
+  	</div><!--colmn-->
+
+  	<div class="col-sm-4 col-xs-12">
+			<div class="thumbnail">
+			  <a href="images/komachi/top/komachi_02.jpg"　data-lightbox="image-2" data-title="宿場小町">
+      		<img class="img-responsive" src="images/komachi/top/komachi_02.jpg">
+    		</a>
+				<div class="caption">
+					<h4 class="media-heading">鈴木 佐知</h4>
+					<span>
+					この度、2016年 第3代 宿場小町に選ばれました鈴木 佐知と申します。<br>
+					これから宿場小町として保土ヶ谷の魅力・素敵なお店などをご紹介させていただきたいと思います。<br>
+					よろしくお願い致します。<br>
+					</span>
+				</div>
+			</div><!-- thumbnail -->
+  	</div><!--colmn-->
+
+  	<div class="col-sm-4 col-xs-12">
+			<div class="thumbnail">
+			  <a href="images/komachi/top/komachi_01.jpg"　data-lightbox="image-2" data-title="宿場小町">
+      		<img class="img-responsive" src="images/komachi/top/komachi_01.jpg">
+    		</a>
+				<div class="caption">
+					<h4 class="media-heading">高橋 英梨香</h4>
+					<span>
+					こんにちはこの度宿場小町に選ばれました高橋　英梨香です!<br>
+					これから保土ヶ谷の面白いところをどんどん紹介していきますので、楽しみにしてください。<br>
+					</span>
+				</div>
+			</div><!-- thumbnail -->
+  	</div><!--colmn-->
+
+	</div><!--row-->
 </section>
 
 <section class="container-fluid content-section text-center">
@@ -46,30 +89,28 @@
 </section>
 
 
-<section class="container-fluid content-section text-center">
-	<div class="row">
-		<div class="col-xs-12  col-md-4">
-		    <a href="images/komachi/gallery/komachi003.jpg" data-lightbox="image-1" data-title="My caption"  class="thumbnail">
-        		<img src="images/komachi/gallery/komachi003.jpg" class="img-responsive" style="margin: 0 auto;" >
-    		</a>
-		</div>
-		<div class="col-xs-12 col-md-8">
-			<div class="col-xs-12 col-md-6">
-    			<a href="images/komachi/gallery/komachi001.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
-        			<img src="images/komachi/gallery/komachi001.jpg" class="img-responsive" style="margin: 0 auto;"  >
-    			</a>
-			</div>
-			<div class="col-xs-12 col-md-6">
-    			<a href="images/komachi/gallery/komachi002.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
-        			<img src="images/komachi/gallery/komachi002.jpg" class="img-responsive" style="margin: 0 auto;" >
-    			</a>
-			</div>
-			<div class="col-xs-12 col-md-6">
-    			<a href="images/komachi/gallery/komachi004.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
-        			<img src="images/komachi/gallery/komachi004.jpg" class="img-responsive" style="margin: 0 auto;" >
-    			</a>
-			</div>
-		</div>
-	</div>
+<section class="container">
+    <div class="row">
+        {{ gallery.image("images/komachi/2016komachi/komachi_001.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_002.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_003.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_004.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_005.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_006.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_007.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_008.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_009.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_010.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_011.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_012.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_013.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_014.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_015.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_016.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_017.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_018.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_019.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2016komachi/komachi_020.jpg", "2016年　宿場小町") }}
+    </div>
 </section>
 {% endblock %}
