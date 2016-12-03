@@ -90,7 +90,7 @@
         <p> たくさんのご応募ありがとうございました。</p>
         <p> 結果は10/9(日)の表彰式で発表されます。</p>
         <a href="komachi.html">
-            <img src="images/komachi/boshu/komachi_boshu.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+            <img src="images/komachi/boshu/komachi_2016.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
 
     </div>
