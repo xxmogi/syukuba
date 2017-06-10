@@ -5,15 +5,15 @@
 
 {% block content %}
 
-<section class="container page-head">
+<section class="container text-center">
 	<div class="row"> 
 	<h1> 宿場小町 </h1>
 	<hr/>
 		<img src="images/komachi/top/komachi_top.jpg" class="img-responsive" style="margin: 0 auto;">
 	</div>
 	<div class="row">
-		<h2> 2016年宿場小町募集</h2>
-				宿場祭りでは2016年の宿場小町を<br>
+		<h2> 2017年宿場小町募集</h2>
+				宿場祭りでは2017年の宿場小町を<br>
 				募集しています。<br>
 				港のヨコ保土ヶ谷宿場町で<br>
 				祭りを彩る小町になってみませんか？<br>
@@ -22,25 +22,31 @@
 				イベントへの参加<br>
 				祭り後は地元保土ヶ谷の紹介や<br>
 				PR活動を行います。<br>
-		<p>
+	 </div>
+	 <div class="row">
+		<h3>
 			<a href="file/小町募集.doc" target="_blank">募集要項はこちらから</a>
-		</p>
+		</h3>
 	</div>
 </section>
 
-<section class="container text-center">
+<section class="container content-section text-center">
 <div class="row">
-<h2> PR動画 </h2>
-<hr/>
-	<div class="embed-responsive embed-responsive-16by9">
-		<iframe src="https://www.youtube.com/embed/FyHbQOKNeaE" frameborder="0" allowfullscreen></iframe>
-	</div>
+	<h2>2016年宿場小町の活動</h2>
+	<hr/>
 </div>
-</section>
 
-<section class="container-fluid content-section text-center">
 <div class="row">
-	<h2>2015年宿場小町の活動</h2>
+	{{ gallery.image("images/komachi/2016komachi/komachi_017.jpg", "宿場小町") }}
+	{{ gallery.image("images/komachi/2016komachi/komachi_018.jpg", "宿場小町") }}
+	{{ gallery.image("images/komachi/2016komachi/komachi_019.jpg", "宿場小町") }}
+	{{ gallery.image("images/komachi/2016komachi/komachi_020.jpg", "宿場小町") }}
+	{{ gallery.image("images/komachi/2016komachi/komachi_021.jpg", "宿場小町") }}
+	{{ gallery.image("images/komachi/2016komachi/komachi_022.jpg", "宿場小町") }}
+	{{ gallery.image("images/komachi/2016komachi/komachi_023.jpg", "宿場小町") }}
+</div>
+
+<div class="row">
 	<!-- start feedwind code -->
 	<script type="text/javascript">
 	//<![CDATA[
@@ -54,37 +60,16 @@
 	</script>
 	<div style="font-size:10px; text-align:center; width:270px;">
 	<a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a><!--Please display the above link in your web page according to Terms of Service.-->
+	</div>
 </div>
 </section>
 
-
-<section class="container-fluid content-section text-center">
-<div class="row">
-<h2>2015年宿場小町GALLERY</h2>
-</div>
-	<div class="row">
-		<div class="col-xs-12  col-md-4">
-		    <a href="images/komachi/gallery/komachi003.jpg" data-lightbox="image-1" data-title="My caption"  class="thumbnail">
-        		<img src="images/komachi/gallery/komachi003.jpg" class="img-responsive" style="margin: 0 auto;" >
-    		</a>
-		</div>
-		<div class="col-xs-12 col-md-8">
-			<div class="col-xs-12 col-md-6">
-    			<a href="images/komachi/gallery/komachi001.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
-        			<img src="images/komachi/gallery/komachi001.jpg" class="img-responsive" style="margin: 0 auto;"  >
-    			</a>
-			</div>
-			<div class="col-xs-12 col-md-6">
-    			<a href="images/komachi/gallery/komachi002.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
-        			<img src="images/komachi/gallery/komachi002.jpg" class="img-responsive" style="margin: 0 auto;" >
-    			</a>
-			</div>
-			<div class="col-xs-12 col-md-6">
-    			<a href="images/komachi/gallery/komachi004.jpg" data-lightbox="image-1" data-title="My caption" class="thumbnail">
-        			<img src="images/komachi/gallery/komachi004.jpg" class="img-responsive" style="margin: 0 auto;" >
-    			</a>
-			</div>
-		</div>
+<section class="container text-center content-section">
+	 <div class="row">
+		<h3>
+			<a href="file/小町募集.doc" target="_blank">募集要項はこちらから</a>
+		</h3>
 	</div>
 </section>
+
 {% endblock %}
