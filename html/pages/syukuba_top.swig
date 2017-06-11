@@ -3,9 +3,9 @@
 
 {% block meta %}
 <meta property="og:title" content="保土ヶ谷宿場まつり">
-<meta property="og:description" content="2016年 保土ヶ谷宿場まつり (開催日 2016年10/9〜10)">
-<meta property="og:url" content="http://syukuba.net/2016/syukuba_top.html">
-<meta property="og:image" content="http://syukuba.net/2016/images/top/top_img3.jpg"> 
+<meta property="og:description" content="2017年 保土ヶ谷宿場まつり (開催日 2017年10/8〜9)">
+<meta property="og:url" content="http://syukuba.net/2017/syukuba_top.html">
+<meta property="og:image" content="http://syukuba.net/2017/images/top/top_img4.jpg"> 
 {% endblock %} {% block content %}
 
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -127,7 +127,7 @@
     <div class="row">
         <h2>ACCESS</h2>
         <hr/>
-        <p>2016年10月9日(日)～10月10日(月)</p>
+        <p>2017年10月8日(日)～10月9日(月)</p>
         <p>保土ヶ谷駅西口より徒歩５分.</p>
     </div>
     <div class="row">
