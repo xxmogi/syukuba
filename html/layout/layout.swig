@@ -19,7 +19,7 @@
 	<footer>
 		<div class="container">
 			<p class="text-muted">
-				Copyright &copy; 2016 保土ヶ谷宿場まつり実行委員会 All Rights Reserved.
+				Copyright &copy; 保土ヶ谷宿場まつり実行委員会 All Rights Reserved.
 			</p>
 		</div>
 	</footer>
