@@ -85,10 +85,10 @@
     <div class="row" style="bakground-color: black">
         <h2>宿場小町</h2>
         <hr/>
-        <p class="text-danger">宿場小町の募集 投票は終了しました。</p>
-        <p> たくさんのご応募ありがとうございました。</p>
-        <p> 以下の写真より小町紹介ページにリンクします。</p>
-        <a href="komachi.html">
+        
+        <p><a href="komachi_boshu.html">2017年 宿場小町の募集を開始しました。</a></p>
+        <p> たくさんのご応募お待ちしております。</p>
+        <a href="komachi_boshu.html">
             <img src="images/komachi/boshu/komachi_2016.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
 
