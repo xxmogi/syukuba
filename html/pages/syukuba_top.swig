@@ -88,7 +88,8 @@
         
         <p><a href="komachi_boshu.html">2017年 宿場小町の募集を開始しました。</a></p>
         <p> たくさんのご応募お待ちしております。</p>
-        <a href="komachi_boshu.html">
+        <p> 写真をタップすると投票サイトにリンクします。</p>
+        <a href="https://creativesurvey.com/ng/reply/f51374e5e26ef541d09286b2a0de2d/" target="_blank">
             <img src="images/komachi/boshu/komachi_2016.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
 
