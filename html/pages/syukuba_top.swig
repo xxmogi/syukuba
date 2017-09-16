@@ -104,9 +104,9 @@
     <div class="row">
         <h2>イベント情報</h2>
         <hr/>
-        <h3> 2016年のイベント情報 </h3>
-        <a href="file/map.pdf" target="blank">
-            <img src="images/map/map.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+        <h3> 2017年のイベント情報 </h3>
+        <a href="images/map/map.jpg" target="blank">
+            <img src="images/map/map_thumnail.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
     </div>
     <br>
@@ -118,17 +118,6 @@
         </a>
     </div>
     <br>
-    <div class="row">
-        <h3>スタンプラリー</h3>
-        <hr/>
-        <p>
-        保土ヶ谷宿場まつりスタンプラリー今年も実施します。ゴールした方には宿場くんオリジナルグッズをプレゼントします。
-        またゴールした子供（小学年２年生まで）の中から抽選で数名「宿場かご試乗体験」を予定しています。 
-        奮って参加してください。
-        </p>
-        <img src="images/map/stump.jpg" class="img-responsive" style="margin: 0 auto;"></img>
-        <br>
-    </div>
 </section>
 
 <section id="facebook" class="container-fluid content-section text-center">
