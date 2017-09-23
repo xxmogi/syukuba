@@ -86,12 +86,9 @@
         <h2>宿場小町</h2>
         <hr/>
         
-        <p><a href="komachi_boshu.html">2017年 宿場小町の募集を開始しました。</a></p>
-        <p> たくさんのご応募お待ちしております。</p>
-        <p> 9/20(水)を投票締切とさせて頂きます。</p>
-        <p> </p>
-        <p> 写真をタップすると
-        <a href="https://creativesurvey.com/ng/reply/f51374e5e26ef541d09286b2a0de2d/" target="_blank">投票サイト</a>にリンクします。</p>
+        <p>2017年 宿場小町の募集は9/20(水)で終了しました。</p>
+        <p> たくさんのご応募ありがとうございました。</p>
+        <p> 投票の結果は後日発表いたします。</p>
         <a href="https://creativesurvey.com/ng/reply/f51374e5e26ef541d09286b2a0de2d/" target="_blank">
             <img src="images/komachi/boshu/komachi_2016.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
