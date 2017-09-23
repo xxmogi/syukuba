@@ -105,16 +105,8 @@
         <h2>イベント情報</h2>
         <hr/>
         <h3> 2017年のイベント情報 </h3>
-        <a href="images/map/map.jpg" target="blank">
+        <a href="file/map.pdf" target="blank">
             <img src="images/map/map_thumnail.jpg" class="img-responsive" style="margin: 0 auto;"></img>
-        </a>
-    </div>
-    <br>
-    <div class="row">
-        <h3>保土ヶ谷キッズ村</h3>
-        <hr/>
-        <a href="file/kidstown.pdf" target="blank">
-            <img src="images/map/kidstown.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
     </div>
     <br>
