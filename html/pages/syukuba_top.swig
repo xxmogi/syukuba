@@ -107,6 +107,13 @@
         </a>
     </div>
     <br>
+    <div class="row">
+        <h3>保土ヶ谷キッズ村</h3>
+        <hr/>
+        <a href="file/kidstown.pdf" target="blank">
+            <img src="images/map/kidstown.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+        </a>
+    </div>
 </section>
 
 <section id="facebook" class="container-fluid content-section text-center">
