@@ -10,14 +10,15 @@
 <section class="container-fluid page-head text-center">
 	<div class="row"> 
 		<h1> 宿場小町 </h1>
-    <p>2016年宿場小町が決まりました。</p>
+    <p>2017年宿場小町が決まりました。</p>
 		<p>たくさんの投票ありがとうございました。</p>
 	</div>
 </section>
 
 <section class="container-fluid">
 	<div class="row">
-
+	<h2> 2016年の宿場小町 </h2>
+	<hr/>
   	<div class="col-sm-4 col-xs-12">
 			<div class="thumbnail">
 			  <a href="images/komachi/top/komachi_03.jpg" data-lightbox="image-2" data-title="宿場小町">

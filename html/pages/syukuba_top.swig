@@ -89,7 +89,8 @@
         <p>2017年 宿場小町の募集は9/20(水)で終了しました。</p>
         <p> たくさんのご応募ありがとうございました。</p>
         <p> 投票の結果は後日発表いたします。</p>
-        <a href="https://creativesurvey.com/ng/reply/f51374e5e26ef541d09286b2a0de2d/" target="_blank">
+        <p> 写真をクリックすると宿場小町のページに飛びます。</p>
+        <a href="komachi.html">
             <img src="images/komachi/boshu/komachi_2016.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
 
