@@ -130,6 +130,20 @@
 
 </section>
 
+<section id="sponser" class="container-fluid content-section text-center">
+    <div class="row">
+        <h2> 協賛 </h2>
+        <hr/>
+        <p> 宿場まつりへのご協力ありがとうございました。 </p>
+    </div>
+    <div class="row">
+        <h3>
+        <a href="sponser.html">協賛いただいた方々 </a>
+        </h3>
+    </div>
+
+</section>
+
 <section id="about" class="container-fluid content-section text-center">
     <div class="row">
         <h2>ギャラリー</h2>
