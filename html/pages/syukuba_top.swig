@@ -86,12 +86,11 @@
         <h2>宿場小町</h2>
         <hr/>
         
-        <p>2017年 宿場小町の募集は9/20(水)で終了しました。</p>
+        <p>2017年 宿場小町が決まりました。。</p>
         <p> たくさんのご応募ありがとうございました。</p>
-        <p> 投票の結果は後日発表いたします。</p>
         <p> 写真をクリックすると宿場小町のページに飛びます。</p>
         <a href="komachi.html">
-            <img src="images/komachi/boshu/komachi_2016.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+            <img src="images/komachi/boshu/komachi_2017.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
 
     </div>
