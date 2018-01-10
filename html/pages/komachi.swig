@@ -17,17 +17,20 @@
 
 <section class="container-fluid">
 	<div class="row">
-	<h2> 2017年の宿場小町 </h2>
+	<h2> 2016年の宿場小町 </h2>
 	<hr/>
   	<div class="col-sm-4 col-xs-12">
 			<div class="thumbnail">
 			  <a href="images/komachi/top/komachi_03.jpg" data-lightbox="image-2" data-title="宿場小町">
-      		<img class="img-responsive" src="images/komachi/top/komachi_201701.jpg">
+      		<img class="img-responsive" src="images/komachi/top/komachi_03.jpg">
     		</a>
 				<div class="caption">
-					<h4 class="media-heading">矢倉 弘美(やくら ひろみ)</h4>
+					<h4 class="media-heading">比嘉 咲喜代</h4>
 					<span>
-						<!-- ここにコメント入力 -->
+					皆さんこんにちは<br>
+					この度三代目宿場小町に選ばれました比嘉ですヽ(*'0'*)ﾂ<br>
+					保土ヶ谷周辺の飲み屋さんを沢山紹介していきますので<br>
+					よろしくお願いします 笑<br>
 					</span>
 				</div>
 			</div><!-- thumbnail -->
@@ -36,12 +39,14 @@
   	<div class="col-sm-4 col-xs-12">
 			<div class="thumbnail">
 			  <a href="images/komachi/top/komachi_02.jpg"　data-lightbox="image-2" data-title="宿場小町">
-      		<img class="img-responsive" src="images/komachi/top/komachi_201702.jpg">
+      		<img class="img-responsive" src="images/komachi/top/komachi_02.jpg">
     		</a>
 				<div class="caption">
-					<h4 class="media-heading">諏訪 日菜乃(すわ ひなの)</h4>
+					<h4 class="media-heading">鈴木 佐知</h4>
 					<span>
-						<!-- ここにコメント入力 -->
+					この度、2016年 第3代 宿場小町に選ばれました鈴木 佐知と申します。<br>
+					これから宿場小町として保土ヶ谷の魅力・素敵なお店などをご紹介させていただきたいと思います。<br>
+					よろしくお願い致します。<br>
 					</span>
 				</div>
 			</div><!-- thumbnail -->
@@ -50,12 +55,13 @@
   	<div class="col-sm-4 col-xs-12">
 			<div class="thumbnail">
 			  <a href="images/komachi/top/komachi_01.jpg"　data-lightbox="image-2" data-title="宿場小町">
-      		<img class="img-responsive" src="images/komachi/top/komachi_201703.jpg">
+      		<img class="img-responsive" src="images/komachi/top/komachi_01.jpg">
     		</a>
 				<div class="caption">
-					<h4 class="media-heading">後藤 美沙(ごとう みさ)</h4>
+					<h4 class="media-heading">高橋 英梨香</h4>
 					<span>
-						<!-- ここにコメント入力 -->
+					こんにちはこの度宿場小町に選ばれました高橋　英梨香です!<br>
+					これから保土ヶ谷の面白いところをどんどん紹介していきますので、楽しみにしてください。<br>
 					</span>
 				</div>
 			</div><!-- thumbnail -->
