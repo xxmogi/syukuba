@@ -13,4 +13,4 @@ deployment:
   production:
     branch: master
     commands:
-      - rsync -uvz dist/${DEPLOY_YEAR}/* ${SSH_USER}@${HOST_NAME}:${DEPLOY_DIR}/www/${DEPLOY_YEAR}
+      - rsync -ruvz dist/${DEPLOY_YEAR}/* ${SSH_USER}@${HOST_NAME}:${DEPLOY_DIR}/www/${DEPLOY_YEAR}
