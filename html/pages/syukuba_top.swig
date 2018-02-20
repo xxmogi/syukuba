@@ -151,18 +151,22 @@
         <p> 昨年までの宿場まつりの様子。
     </div>
     <div class="row">
-        {{ gallery.image("images/gallery/001.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/002.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/003.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/008.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/009.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/010.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/011.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/012.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/013.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/014.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/015.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/016.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/001.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/002.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/003.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/004.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/005.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/006.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/007.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/008.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/009.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/010.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/011.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/012.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/013.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/014.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/015.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/016.jpg", "保土ヶ谷宿場まつり") }}
 
     </div>
 </section>
