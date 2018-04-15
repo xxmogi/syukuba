@@ -3,9 +3,9 @@
 
 {% block meta %}
 <meta property="og:title" content="保土ヶ谷宿場まつり">
-<meta property="og:description" content="2017年 保土ヶ谷宿場まつり (開催日 2017年10/8〜9)">
-<meta property="og:url" content="http://syukuba.net/2017/syukuba_top.html">
-<meta property="og:image" content="http://syukuba.net/2017/images/top/top_img4.jpg"> 
+<meta property="og:description" content="2018年 保土ヶ谷宿場まつり (開催日 2018年10/7〜8)">
+<meta property="og:url" content="http://syukuba.net/2018/syukuba_top.html">
+<meta property="og:image" content="http://syukuba.net/2018/images/top/top.jpg"> 
 {% endblock %} {% block content %}
 
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -27,6 +27,9 @@
                 </li>
                 <li>
                     <a href="#komachi">宿場小町</a>
+                </li>
+                <li>
+                    <a href="#character">キャラクター</a>
                 </li>
                 <li>
                     <a href="#event">イベント情報</a>
@@ -54,7 +57,7 @@
     <div class="row">
         <h2>ACCESS</h2>
         <hr/>
-        <p>2017年10月8日(日)～10月9日(月)</p>
+        <p>2018年10月7日(日)～10月8日(月)</p>
         <p>保土ヶ谷駅西口より徒歩５分.</p>
     </div>
     <div class="row">
@@ -81,13 +84,34 @@
     </div>
 </section>
 
+<section id="character" class="container-fluid content-section text-center event-section ">
+    <div class="row">
+        <h2>保土ケ谷宿場まつりキャラクター紹介</h2>
+    </div>
+    <div class="row">
+        <a href="file/character.pdf" target=blank>
+            <img src="images/top/character.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+        </a>
+        <br>
+    </div>
+    <div class="row">
+        <img src="images/top/syukubakun.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+        <br>
+    </div>
+    <div class="row">
+        <img src="images/top/syukubachan.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+        <br>
+    </div>
+</section>
+
 <section id="komachi" class="container-fluid content-section text-center">
     <div class="row" style="bakground-color: black">
         <h2>宿場小町</h2>
         <hr/>
         
-        <p>2017年 宿場小町が決まりました。。</p>
+        <p>2017年 宿場小町です</p>
         <p> たくさんのご応募ありがとうございました。</p>
+        <p> 2018年もよろしくお願いいたします。</p>
         <p> 写真をクリックすると宿場小町のページに飛びます。</p>
         <a href="komachi.html">
             <img src="images/komachi/boshu/komachi_2017.jpg" class="img-responsive" style="margin: 0 auto;"></img>
