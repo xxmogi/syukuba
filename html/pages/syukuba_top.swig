@@ -5,7 +5,7 @@
 <meta property="og:title" content="保土ヶ谷宿場まつり">
 <meta property="og:description" content="2018年 保土ヶ谷宿場まつり (開催日 2018年10/7〜8)">
 <meta property="og:url" content="http://syukuba.net/2018/syukuba_top.html">
-<meta property="og:image" content="http://syukuba.net/2018/images/top/top.jpg"> 
+<meta property="og:image" content="http://syukuba.net/2018/images/top/top_2018.jpg"> 
 {% endblock %} {% block content %}
 
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
