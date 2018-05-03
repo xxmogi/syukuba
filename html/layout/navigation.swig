@@ -22,9 +22,6 @@
                 <li>
                     <a href="komachi.html">宿場小町</a>
                 </li>
-                <li>
-                    <a href="crowdfunding.html">クラウドファンディング</a>
-                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
