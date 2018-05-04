@@ -64,25 +64,6 @@
 	</div><!--row-->
 </section>
 
-<section id="interview" class="container-fluid content-section text-center">
-    <div class="row" style="bakground-color: black">
-        <h2>取材店舗大募集</h2>
-        <hr/>
-        
-        <p>宿場小町がお店に訪問します。</p>
-        <p>取材内容はブログでご紹介させていただきます。</p>
-		<hr/>
-        <a href="file/komachi_blog.pdf">
-            <img src="images/komachi/interview/blog.jpg" class="img-responsive" style="margin: 0 auto;"></img>
-        </a>
-		<hr/>
-        <a href="#">
-            <img src="images/komachi/interview/interview.jpg" class="img-responsive" style="margin: 0 auto;"></img>
-        </a>
-
-    </div>
-</section>
-
 <section class="container-fluid content-section text-center">
 <div class="row">
 	<h3 ID="BLOG" class="headline_pink">宿場小町の活動</h3>
