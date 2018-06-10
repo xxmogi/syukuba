@@ -21,7 +21,7 @@
 	<hr/>
   	<div class="col-sm-4 col-xs-12">
 			<div class="thumbnail">
-			  <a href="images/komachi/top/komachi_03.jpg" data-lightbox="image-2" data-title="宿場小町">
+			  <a href="images/komachi/top/komachi_201701.jpg" data-lightbox="image-2" data-title="宿場小町">
       		<img class="img-responsive" src="images/komachi/top/komachi_201701.jpg">
     		</a>
 				<div class="caption">
@@ -35,7 +35,7 @@
 
   	<div class="col-sm-4 col-xs-12">
 			<div class="thumbnail">
-			  <a href="images/komachi/top/komachi_02.jpg"　data-lightbox="image-2" data-title="宿場小町">
+			  <a href="images/komachi/top/komachi_201702.jpg"　data-lightbox="image-2" data-title="宿場小町">
       		<img class="img-responsive" src="images/komachi/top/komachi_201702.jpg">
     		</a>
 				<div class="caption">
@@ -49,7 +49,7 @@
 
   	<div class="col-sm-4 col-xs-12">
 			<div class="thumbnail">
-			  <a href="images/komachi/top/komachi_01.jpg"　data-lightbox="image-2" data-title="宿場小町">
+			  <a href="images/komachi/top/komachi_201703.jpg"　data-lightbox="image-2" data-title="宿場小町">
       		<img class="img-responsive" src="images/komachi/top/komachi_201703.jpg">
     		</a>
 				<div class="caption">
