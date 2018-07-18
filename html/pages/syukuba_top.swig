@@ -1,11 +1,11 @@
-{% import "../macro/gallery.swig" as gallery %} 
-{% extends "../layout/layout.swig" %} 
+{% import "../macro/gallery.swig" as gallery %}
+{% extends "../layout/layout.swig" %}
 
 {% block meta %}
 <meta property="og:title" content="保土ヶ谷宿場まつり">
 <meta property="og:description" content="2018年 保土ヶ谷宿場まつり (開催日 2018年10/7〜8)">
 <meta property="og:url" content="http://syukuba.net/2018/syukuba_top.html">
-<meta property="og:image" content="http://syukuba.net/2018/images/top/top_2018.jpg"> 
+<meta property="og:image" content="http://syukuba.net/2018/images/top/top_2018.jpg">
 {% endblock %} {% block content %}
 
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -112,8 +112,8 @@
         <p> 保土ケ谷宿場まつりでは2018年宿場小町を募集しています。</p>
         <p> 宿場町保土ケ谷で祭りを彩る小町になってみませんか。</p>
         <p> 募集要項は以下</p>
-        <a href="images/komachi/boshu/komachi_boshu_2018.jpg">
-            <img src="images/komachi/boshu/komachi_boshu_2018.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+        <a href="images/komachi/boshu/komachi_boshu_2018.jpeg">
+            <img src="images/komachi/boshu/komachi_boshu_2018.jpeg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
         <hr/>
         <h2>2017年宿場小町の活動</h2>
@@ -183,21 +183,21 @@
         <p> 昨年までの宿場まつりの様子。
     </div>
     <div class="row">
-        {{ gallery.image("images/gallery/2017/001.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/002.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/003.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/004.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/005.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/006.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/007.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/008.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/009.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/010.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/011.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/012.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/013.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/014.jpg", "保土ヶ谷宿場まつり") }} 
-        {{ gallery.image("images/gallery/2017/015.jpg", "保土ヶ谷宿場まつり") }} 
+        {{ gallery.image("images/gallery/2017/001.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/002.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/003.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/004.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/005.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/006.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/007.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/008.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/009.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/010.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/011.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/012.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/013.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/014.jpg", "保土ヶ谷宿場まつり") }}
+        {{ gallery.image("images/gallery/2017/015.jpg", "保土ヶ谷宿場まつり") }}
         {{ gallery.image("images/gallery/2017/016.jpg", "保土ヶ谷宿場まつり") }}
 
     </div>
@@ -230,7 +230,7 @@ $(function() {
         return false;
     });
 
-    var topBtn = $('#to-top');    
+    var topBtn = $('#to-top');
     topBtn.hide();
     $(window).scroll(function () {
         if ($(this).scrollTop() > 120) {
