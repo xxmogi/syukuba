@@ -108,7 +108,15 @@
     <div class="row" style="bakground-color: black">
         <h2>宿場小町</h2>
         <hr/>
-        
+        <p>5代目宿場小町募集のお知らせ</p>
+        <p> 保土ケ谷宿場まつりでは2018年宿場小町を募集しています。</p>
+        <p> 宿場町保土ケ谷で祭りを彩る小町になってみませんか。</p>
+        <p> 募集要項は以下</p>
+        <a href="images/komachi/boshu/komachi_boshu_2018.jpg">
+            <img src="images/komachi/boshu/komachi_boshu_2018.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+        </a>
+        <hr/>
+        <h2>2017年宿場小町の活動</h2>
         <p>2017年 宿場小町です</p>
         <p> たくさんのご応募ありがとうございました。</p>
         <p> 2018年もよろしくお願いいたします。</p>
