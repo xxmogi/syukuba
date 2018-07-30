@@ -105,26 +105,26 @@
 
 <section class="container">
     <div class="row">
-        {{ gallery.image("images/komachi/2016komachi/komachi_001.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_002.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_003.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_004.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_005.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_006.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_007.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_008.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_009.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_010.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_011.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_012.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_013.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_014.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_015.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_016.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_017.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_018.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_019.jpg", "2016年　宿場小町") }}
-        {{ gallery.image("images/komachi/2016komachi/komachi_020.jpg", "2016年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_001.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_002.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_003.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_004.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_005.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_006.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_007.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_008.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_009.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_010.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_011.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_012.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_013.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_014.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_015.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_016.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_017.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_018.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_019.jpg", "2017年　宿場小町") }}
+        {{ gallery.image("images/komachi/2017komachi/komachi_020.jpg", "2017年　宿場小町") }}
     </div>
 </section>
 {% endblock %}
