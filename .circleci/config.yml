@@ -14,6 +14,9 @@ jobs:
           command: |
             npm run bower
             npm run build
+      - add_ssh_keys:
+          fingerprints:
+            "ce:d2:65:09:3b:c4:1a:c6:5f:31:6f:a5:e1:7f:ab:a6"
       - deploy:
           name: deploy to server
           command: |
