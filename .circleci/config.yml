@@ -7,6 +7,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: dependency
+          command: npm install
+      - run:
           name: build
           command: |
             npm run bower
