@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/repo
+    docker:
+      - image: circleci/node:6
+    steps:
+      - checkout
+      - run:
+          name: build
+          command: |
+            npm run bower
+            npm run build
+      - deploy:
+          name: deploy to server
+          command: |
+            rsync -ruvz dist/${DEPLOY_YEAR}/* ${SSH_USER}@${HOST_NAME}:${DEPLOY_DIR}/www/${DEPLOY_YEAR}
