@@ -78,7 +78,7 @@
     </div>
     <div class="row">
         <a href="file/volunteer.pdf" target=blank>
-            <img src="images/top/volunteer.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+            <img src="images/top/volunteer.png" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
         <br>
     </div>
