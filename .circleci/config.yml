@@ -14,6 +14,10 @@ jobs:
           command: |
             npm run bower
             npm run build
+      - run:
+          name: Start ssh-keyscan
+          command: |
+            ssh-keyscan ${HOST_NAME} >> ~/.ssh/known_hosts
       - add_ssh_keys:
           fingerprints:
             - "56:59:a1:83:5c:8a:c0:1a:e8:a7:8d:c9:d3:56:54:6c"
