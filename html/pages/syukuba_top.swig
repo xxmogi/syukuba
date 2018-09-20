@@ -132,8 +132,8 @@
     <div class="row">
         <h2>イベント情報</h2>
         <hr/>
-        <h3> 2017年のイベント情報 </h3>
-        <a href="file/map.pdf" target="blank">
+        <h3> 2018年のイベント情報 </h3>
+        <a href="images/map/map_thumnail.jpg" target="blank" data-lightbox="map" data-title="イベント情報">
             <img src="images/map/map_thumnail.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
     </div>
