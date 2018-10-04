@@ -134,15 +134,15 @@
         <hr/>
         <h3> 2018年のイベント情報 </h3>
         <a href="images/map/map_thumnail.jpg" target="blank" data-lightbox="map" data-title="イベント情報">
-            <img src="images/map/map_thumnail.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+            <img src="images/map/map_thumnail.jpg" class="img-responsive" style="margin: 0 auto;"/>
         </a>
     </div>
     <br>
     <div class="row">
         <h3>保土ヶ谷キッズ村</h3>
         <hr/>
-        <a href="file/kidstown.pdf" target="blank">
-            <img src="images/map/kidstown.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+        <a href="images/map/kidstown.jpg" target="blank" data-lightbox="kidstown" data-title="キッズ村情報">
+            <img src="images/map/kidstown.jpg" class="img-responsive" style="margin: 0 auto;"/>
         </a>
     </div>
 </section>
