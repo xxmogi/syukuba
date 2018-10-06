@@ -53,7 +53,7 @@
 </header>
 
 <!-- About Section -->
-<section id="about" class="container-fluid content-section text-center ">
+<section id="about" class="container content-section text-center ">
     <div class="row">
         <h2>ACCESS</h2>
         <hr/>
@@ -61,12 +61,11 @@
         <p>保土ヶ谷駅西口より徒歩５分.</p>
     </div>
     <div class="row">
-        <a href="https://www.google.com/maps/d/embed?mid=zIavlo1mr2WQ.kMfAvpdjc3hc" target=blank>
-            <img src="images/map/ACCESS.jpg" class="img-responsive" style="margin: 0 auto;"></img>
-        </a><br> ※地図をクリックで詳細地図を開きます
-        <br>
-        <a href="https://www.google.com/maps/d/embed?mid=zIavlo1mr2WQ.kMfAvpdjc3hc" target=blank>開かない場合はこちら</a>
+        <div class="ggmap">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1CktGEhCUHRPHyFe_CIAbho2T5-c" width="640" height="640"></iframe>
+        </div>
     </div>
+    <br>
 </section>
 
 <section id="about" class="container-fluid content-section text-center event-section ">
