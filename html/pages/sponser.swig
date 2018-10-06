@@ -27,119 +27,94 @@
     <!-- /.container -->
 </nav>
 
-<section class="container-fluid page-head text-center">
+<section class="container-fluid text-center">
 	<div class="row"> 
 		<h1> 協賛 <small>（順不同）</small></h1>
-    <hr/>
+        <hr/>
 	</div>
 
   <div class="row">
- 
-{{ sponser.item("ピーシーズカフェ", "https://www.facebook.com/PiecesCafe") }} 
-{{ sponser.item("café KANMURIBANE", "http://kanmuribane.wixsite.com/kanmuribane") }} 
-{{ sponser.item("みろく", "https://www.facebook.com/29miroku") }} 
-{{ sponser.item("中華堂", "") }} 
+{{ sponser.only_name("ｻﾞ･ﾌﾞﾗｯｸﾗﾌﾞ･ｶﾝﾊﾟﾆｰ(有)") }}
+{{ sponser.only_name("パスタ＆バー夏への扉") }}
+{{ sponser.only_name("花みつ") }}
+{{ sponser.only_name("合同会社　PIKAPIKA") }}
+{{ sponser.only_name("POLA　The　Beauty保土ヶ谷店") }}
+{{ sponser.only_name("(有)杉田屋ｸﾘｰﾆﾝｸﾞ商会") }}
+{{ sponser.only_name("(株)S　＆　S") }}
+{{ sponser.only_name("合名会社　北川製粉所") }}
+{{ sponser.only_name("株式会社　TKﾛｯｸｻｰﾋﾞｽ") }}
+{{ sponser.only_name("タカオメディカルクリニック") }}
+{{ sponser.only_name("金子クリーニング商会") }}
+{{ sponser.only_name("ミナト歯科クリニック") }}
+{{ sponser.only_name("メガネのサイグサ") }}
+{{ sponser.only_name("かたびら・スペース・しばた") }}
+{{ sponser.only_name("第二常盤湯") }}
+{{ sponser.only_name("内藤ふとん店") }}
+{{ sponser.only_name("横浜帷子郵便局") }}
+{{ sponser.only_name("mamenoKi") }}
+{{ sponser.only_name("野菜の家") }}
+{{ sponser.only_name("株式会社　都市計画") }}
+{{ sponser.only_name("帷子珈琲") }}
+{{ sponser.only_name("歌瑠多") }}
+{{ sponser.only_name("アーバンスタイル（株）") }}
+{{ sponser.only_name("ネオ21保土ヶ谷店") }}
+{{ sponser.only_name("香港") }}
+{{ sponser.only_name("株式会社　三和インテリア") }}
+{{ sponser.only_name("café　KANMURIBANE") }}
+{{ sponser.only_name("(有)八島商店") }}
+{{ sponser.only_name("みのりアート") }}
+{{ sponser.only_name("お好み焼き　もんじゃ衛門") }}
+{{ sponser.only_name("居酒屋　じんば") }}
+{{ sponser.only_name("ピアわらべ") }}
+{{ sponser.only_name("メディカル・ブルー整骨院") }}
+{{ sponser.only_name("やきとり居酒屋 なか井") }}
+{{ sponser.only_name("株式会社　市野屋商店") }}
+{{ sponser.only_name("株式会社　木内計測 東京支社") }}
+{{ sponser.only_name("(有)萩原工業") }}
+{{ sponser.only_name("日本ビルダー株式会社") }}
+{{ sponser.only_name("ひかり歯科医院") }}
+{{ sponser.only_name("ひかりカイロプラクティック") }}
+{{ sponser.only_name("有限会社 ハマプロ") }}
+{{ sponser.only_name("関東設備サービス") }}
+{{ sponser.only_name("MEGAドン・キホーテ　狩場インター店") }}
+{{ sponser.only_name("狐狸庵") }}
+{{ sponser.only_name("横浜銀行　保土ケ谷支店") }}
+{{ sponser.only_name("NPO法人　ぎんがむら") }}
+{{ sponser.only_name("月見台南部自治会") }}
+{{ sponser.only_name("月見台東部自治会") }}
+{{ sponser.only_name("株式会社　ケーエヌサービス") }}
+{{ sponser.only_name("警備の（株）イスト") }}
+{{ sponser.only_name("㈱リースキン神奈川") }}
+{{ sponser.only_name("横浜トヨペット整備株式会社") }}
+{{ sponser.only_name("小林税務会計事務所") }}
+{{ sponser.only_name("宮川保史税理士事務所") }}
+{{ sponser.only_name("足立歯科") }}
+{{ sponser.only_name("兵藤動物病院") }}
+{{ sponser.only_name("寺井敏治税理士事務所") }}
+{{ sponser.only_name("税理士　寺井　智之") }}
+{{ sponser.only_name("田中亮税理士事務所") }}
+{{ sponser.only_name("ヴァイスト　ヴォルスト") }}
+{{ sponser.only_name("ふとんの池田屋") }}
+{{ sponser.only_name("三ツ沢薬局") }}
+{{ sponser.only_name("フラワーショップ　うるしばら") }}
+{{ sponser.only_name("日舞っ子教室") }}
+{{ sponser.only_name("横浜保土ケ谷眼科") }}
+{{ sponser.only_name("ほどがや脳神経外科") }}
+{{ sponser.only_name("ヘア＆ヘッドスパ　KAZAHAYA") }}
+{{ sponser.only_name("フルハウス保土ヶ谷店店長　井上拓也") }}
+{{ sponser.only_name("ソラスト保土ケ谷") }}
+{{ sponser.only_name("RERAIL") }}
+{{ sponser.only_name("きときと") }}
+{{ sponser.only_name("コックピット") }}
+{{ sponser.only_name("コスモス") }}
+{{ sponser.only_name("にしく名・達の会　リリーズ西") }}
+{{ sponser.only_name("クオーレ整骨院　比嘉") }}
+{{ sponser.only_name("鞠子　みどり") }}
+{{ sponser.only_name("鈴木　啓悟") }}
+{{ sponser.only_name("八ッ橋　良光") }}
+{{ sponser.only_name("山道　在明") }}
+{{ sponser.only_name("星野　智恵") }}
 
-{{ sponser.item("とりいちもんじ", "https://www.facebook.com/toriichimonnzi") }} 
-{{ sponser.item("七つ壺", "") }} 
-{{ sponser.item("Grand　Bleu", "https://www.facebook.com/bistro.grand.bleu/") }} 
-{{ sponser.item("六庵", "") }} 
-
-{{ sponser.item("LINO", "https://www.facebook.com/pages/Bar-LINO/204705356277589") }} 
-{{ sponser.item("クオーレ", "http://cuorehodogaya.com/") }}
-{{ sponser.item("パワーズアンリミテッド", "") }} 
-{{ sponser.item("HAIR　STUDIO　Duck　Tail", "http://www.duck-tail.com/") }} 
-
-{{ sponser.item("Nicole.　保土ケ谷店", "https://nicole20150829.amebaownd.com/") }} 
-{{ sponser.item("PIOLAX", "http://www.piolax.co.jp/") }} 
-{{ sponser.item("Cut　Salon　Line", "") }} 
-{{ sponser.item("隠れ家居酒屋　わちゃわちゃ", "https://www.facebook.com/wachawachatanji/") }} 
-
-{{ sponser.item("あゆみ整骨院", "http://ayumi-seikotuin.com/") }} 
-{{ sponser.item("YOKOHAMA　コックピット", "") }} 
-{{ sponser.item("（株）タカオインテリア　デコレーティング", "http://www.takao-interior.com/") }} 
-{{ sponser.item("新武蔵警備保障", "") }} 
-
-{{ sponser.item("丸山浴槽設備", "") }} 
-{{ sponser.item("公益社団法人　保土ケ谷法人会", "http://hodogayahojinkai.or.jp/") }} 
-{{ sponser.item("関東陸送株式会社", "http://www.sakuranote.jp/sup_mem?supID=1233") }} 
-{{ sponser.item("COMIC　BUSTER", "http://www.xn--pckhtyr3f0e1k.jp/kameiten/14_hodogaya") }} 
-
-{{ sponser.item("カラオケ居酒屋　浜屋", "") }} 
-{{ sponser.item("ほどがや　千成鮨", "http://www.geocities.jp/sennari_sushi/index.html") }} 
-{{ sponser.item("ふらんすやま", "http://www.franceyama.com/") }} 
-{{ sponser.item("Cut　ｍarche", "") }} 
-
-{{ sponser.item("ハングリータイガー　保土ケ谷本店", "http://hungrytiger.co.jp/location/") }} 
-{{ sponser.item("ソラスト保土ケ谷", "https://kango.mynavi.jp/d/453571/") }} 
-{{ sponser.item("カラオケまねきねこ保土ケ谷駅前店", "http://www.karaokemanekineko.jp/shop/kanto-area/kanagawa/hodogayaekimae.html") }} 
-{{ sponser.item("NPO法人　ぎんがむら", "http://www.gingamura.co.jp/") }} 
-
-{{ sponser.item("ごん太鮓", "") }} 
-{{ sponser.item("坂本祭典", "http://www.sougi-sakamoto.com/saijyou/hodogaya.html") }} 
-{{ sponser.item("The　Black　Lab　Company", "http://www.theblacklab.co.jp/") }} 
-{{ sponser.item("なか井", "") }} 
-
-{{ sponser.item("トヨタカローラ　神奈川", "http://www.toyota-corolla.co.jp/") }} 
-{{ sponser.item("市野屋商店", "http://home.catv-yokohama.ne.jp/ww/itinoya/") }} 
-{{ sponser.item("帷子町2丁目自治会", "") }} 
-{{ sponser.item("Atelier　BLOOM", "https://www.atelier-bloom-hairdesign.com/") }} 
-
-  {{ sponser.item("ワイン食堂　ツルカメ", "") }} 
-  </div>
-</section>
-
-<section class="container-fluid text-center">
-    {{ sponser.only_name("（株）ケーエヌサービス") }}
-    {{ sponser.only_name("警備の㈱イスト") }}
-    {{ sponser.only_name("（株）リースキン神奈川") }}
-    {{ sponser.only_name("星野　知恵") }}
-    {{ sponser.only_name("山田　律子") }}
-    {{ sponser.only_name("建壁　サラ") }}
-
-    {{ sponser.only_name("鞠子　みどり") }}
-    {{ sponser.only_name("ふとんの池田屋") }}
-    {{ sponser.only_name("ＲＥＲＡＩＬ") }}
-    {{ sponser.only_name("有限会社　セレンナチュレ　美顔ルーム") }}
-    {{ sponser.only_name("フラワーショップ　うるしばら") }}
-    {{ sponser.only_name("ヴァイスト　ヴォルスト") }}
-
-    {{ sponser.only_name("井坂矯正歯科") }}
-    {{ sponser.only_name("ＮＰＯ法人ぎんがむら") }}
-    {{ sponser.only_name("三ツ沢薬局") }}
-    {{ sponser.only_name("狐狸庵") }}
-    {{ sponser.only_name("フルハウス保土ケ谷店　店長　井上　拓也") }}
-    {{ sponser.only_name("月見台南部自治会") }}
-
-    {{ sponser.only_name("庄屋　保土ケ谷店") }}
-    {{ sponser.only_name("斎藤　義夫") }}
-    {{ sponser.only_name("足立　歯科") }}
-    {{ sponser.only_name("ツチヤ　シンイチ") }}
-    {{ sponser.only_name("菊池不動産") }}
-    {{ sponser.only_name("にしく名・達の会　リリーズ西") }}
-
-    {{ sponser.only_name("ヘア＆ヘッドスパ　KAZAHAYA") }}
-    {{ sponser.only_name("兵藤動物病院") }}
-    {{ sponser.only_name("寺井敏治税理士事務所") }}
-    {{ sponser.only_name("税理士　寺井　智之") }}
-    {{ sponser.only_name("税理士　三根山　貞夫") }}
-    {{ sponser.only_name("田中亮税理士事務所") }}
-
-    {{ sponser.only_name("武吉宏真税理士事務所") }}
-    {{ sponser.only_name("小林税務会計事務所") }}
-    {{ sponser.only_name("宮川保史税理士事務所") }}
-    {{ sponser.only_name("きときと") }}
-    {{ sponser.only_name("コスモス") }}
-    {{ sponser.only_name("ほどがや・人・まち・文化振興会") }}
-
-    {{ sponser.only_name("矢口電気株式会社") }}
-    {{ sponser.only_name("月見台東部自治会") }}
-    {{ sponser.only_name("日舞っ子教室") }}
-    {{ sponser.only_name("日本空手道拳摯会") }}
-    {{ sponser.only_name("山形　和之") }}
-    {{ sponser.only_name("帷子町2丁目自治会") }}
-        </div>
-
-
+    </div>
 </section>
 {% endblock %}
