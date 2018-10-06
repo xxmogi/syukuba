@@ -108,9 +108,9 @@
     <div class="row" style="bakground-color: black">
         <h2>宿場小町</h2>
         <hr/>
-        <p>5代目宿場小町投票開始のお知らせ</p>
-        <p> 宿場小町の投票を開始しました！</p>
-        <p> エントリーも引き続き募集しています。</p>
+        <p>5代目宿場小町の投票は終了しました</p>
+        <p>たくさんの投票ありがとうございました</p>
+        <p>結果は後日発表いたします</p>
         <a href="https://creativesurvey.com/ng/answers/343e7cb1dae8b4ee8360a5d32ac70a/">
             <img src="images/komachi/boshu/komachi_boshu_2018.jpeg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
