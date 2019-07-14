@@ -29,28 +29,28 @@ var opts = {
 
 var distDir = path.join('./dist/', config.year);
 
-gulp.task("copy-bower", function() {
+gulp.task("copy-bower", function () {
     gulp.src(["bower_components/**/*"], {
             base: 'bower_components'
         })
         .pipe(gulp.dest(path.join(distDir, "lib")));
 });
 
-gulp.task("copy-assets", function() {
+gulp.task("copy-assets", function () {
     gulp.src(["assets/file/**/*"], {
             base: 'assets'
         })
         .pipe(gulp.dest(distDir));
 });
 
-gulp.task("images", function() {
-    gulp.src(["assets/images/**/*.jpg"])
-    .pipe(imagemin())
-    .pipe(gulp.dest(path.join(distDir, "images")));
+gulp.task("images", function () {
+    gulp.src(["assets/images/**/*.jpg", "assets/images/**/*.png"])
+        .pipe(imagemin())
+        .pipe(gulp.dest(path.join(distDir, "images")));
 })
 
 
-gulp.task("browser-sync", function() {
+gulp.task("browser-sync", function () {
     browserSync.init({
         server: {
             baseDir: "./dist"
@@ -60,19 +60,19 @@ gulp.task("browser-sync", function() {
     gulp.watch('sass/**/*.scss', ['sass']);
 });
 
- 
+
 gulp.task('sass', function () {
-  return gulp.src('./sass/**/main.scss')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(cssnext())
-    .pipe(gulp.dest(path.join(distDir, "css")))
-    .pipe(browserSync.stream());
+    return gulp.src('./sass/**/main.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(cssnext())
+        .pipe(gulp.dest(path.join(distDir, "css")))
+        .pipe(browserSync.stream());
 });
 
-gulp.task('templates', function() {
+gulp.task('templates', function () {
     gulp.src('html/pages/*.swig')
         .pipe(plumber({
-            errorHandler: notify.onError("Error: <%= error.message %>") 
+            errorHandler: notify.onError("Error: <%= error.message %>")
         }))
         .pipe(swig(opts))
         .pipe(wiredep({
