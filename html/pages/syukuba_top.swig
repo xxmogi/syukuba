@@ -3,7 +3,7 @@
 
 {% block meta %}
 <meta property="og:title" content="保土ヶ谷宿場まつり">
-<meta property="og:description" content="2018年 保土ヶ谷宿場まつり (開催日 2018年10/7〜8)">
+<meta property="og:description" content="2019年 保土ヶ谷宿場まつり (開催日 2019年11/3〜4)">
 <meta property="og:url" content="http://syukuba.net/2018/syukuba_top.html">
 <meta property="og:image" content="http://syukuba.net/2018/images/top/top_2018.jpg">
 {% endblock %} {% block content %}
@@ -57,7 +57,8 @@
     <div class="row">
         <h2>ACCESS</h2>
         <hr/>
-        <p>2018年10月7日(日)～10月8日(月)</p>
+        <p>2018年11月3日(日)～11月4日(月)</p>
+        <p>※ いつもと開催日が異なります。 </p>
         <p>保土ヶ谷駅西口より徒歩５分.</p>
     </div>
     <div class="row">
