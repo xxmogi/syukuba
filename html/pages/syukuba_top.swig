@@ -4,8 +4,8 @@
 {% block meta %}
 <meta property="og:title" content="保土ヶ谷宿場まつり">
 <meta property="og:description" content="2019年 保土ヶ谷宿場まつり (開催日 2019年11/3〜4)">
-<meta property="og:url" content="http://syukuba.net/2018/syukuba_top.html">
-<meta property="og:image" content="http://syukuba.net/2018/images/top/top_2018.jpg">
+<meta property="og:url" content="http://syukuba.net/2019/syukuba_top.html">
+<meta property="og:image" content="http://syukuba.net/2019/images/top/top_2018.jpg">
 {% endblock %} {% block content %}
 
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -57,7 +57,7 @@
     <div class="row">
         <h2>ACCESS</h2>
         <hr/>
-        <p>2018年11月3日(日)～11月4日(月)</p>
+        <p>2019年11月3日(日)～11月4日(月)</p>
         <p>※ いつもと開催日が異なります。 </p>
         <p>保土ヶ谷駅西口より徒歩５分.</p>
     </div>
@@ -75,6 +75,7 @@
         <hr/>
         <p>保土ケ谷宿場まつり実行委員会では、当日のボランティアスタッフを募集しています！</p>
         <p>詳細は以下をクリックしてください！</p>
+        <p>※HPからのWeb受付はしておりませんのでご注意ください。</p>
     </div>
     <div class="row">
         <a href="file/volunteer.pdf" target=blank>
