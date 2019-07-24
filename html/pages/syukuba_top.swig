@@ -57,8 +57,8 @@
     <div class="row">
         <h2>ACCESS</h2>
         <hr/>
-        <p>2019年11月3日(日)～11月4日(月)</p>
-        <p>※ いつもと開催日が異なります。 </p>
+        <p>2019年11月3日(日)～11月4日(祝月)</p>
+        <p>※ 例年と開催日が異なります。 </p>
         <p>保土ヶ谷駅西口より徒歩５分.</p>
     </div>
     <div class="row">
@@ -109,18 +109,21 @@
     <div class="row" style="bakground-color: black">
         <h2>宿場小町</h2>
         <hr/>
-        <p>5代目宿場小町の投票は終了しました</p>
-        <p>たくさんの投票ありがとうございました</p>
-        <p>結果は後日発表いたします</p>
-        <a href="https://creativesurvey.com/ng/answers/343e7cb1dae8b4ee8360a5d32ac70a/">
-            <img src="images/komachi/boshu/komachi_boshu_2018.jpeg" class="img-responsive" style="margin: 0 auto;"></img>
-        </a>
+        <p>5代目宿場小町募集のお知らせ</p>
+        <p> 保土ケ谷宿場まつりでは2018年宿場小町を募集しています。</p>
+        <p> 宿場町保土ケ谷で祭りを彩る小町になってみませんか。</p>
+
+        <div class="row">
+        <h3>
+            <a href="file/小町募集.pdf" target="_blank">募集要項はこちらから</a>
+        </h3>
+    </div>
+
         <hr/>
-        <h2>2017年宿場小町の活動</h2>
-        <p>2017年 宿場小町です</p>
-        <p> たくさんのご応募ありがとうございました。</p>
-        <p> 2018年もよろしくお願いいたします。</p>
-        <p> 写真をクリックすると宿場小町のページに飛びます。</p>
+        <h2>宿場小町の活動</h2>
+        <p>例年たくさんのご応募ありがとうございます。</p>
+        <p>今年もよろしくお願いいたします。</p>
+        <p>写真をクリックすると宿場小町のページに飛びます。</p>
         <a href="komachi.html">
             <img src="images/komachi/boshu/komachi_2017.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
