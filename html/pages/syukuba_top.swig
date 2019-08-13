@@ -114,10 +114,23 @@
         <p> 宿場町保土ケ谷で祭りを彩る小町になってみませんか。</p>
 
         <div class="row">
-        <h3>
-            <a href="file/小町募集.pdf" target="_blank">募集要項はこちらから</a>
-        </h3>
-    </div>
+	        <h3>
+	            <a href="file/小町募集.pdf" target="_blank">募集要項はこちらから</a>
+	        </h3>
+    	</div>
+
+        <hr/>
+        <p>宿場小町投票開始のお知らせ</p>
+        <br>
+        <p>6代目宿場小町の投票を開始しました。</p>
+        <p>令和元年。30回目の開催となる宿場まつり。</p>
+        <p>当日参加できない方も投票という形でぜひご参加ください。</p>
+        <p>投票の結果は令和元年宿場まつりで発表いたします。</p>
+        <div class="row">
+	        <h3>
+	            <a href="https://creativesurvey.com/ng/answers/90e77f49ac5ead6a168113fd7e815b/" target="_blank">令和元年宿場小町投票サイトはこちらから</a>
+	        </h3>
+    	</div>
 
         <hr/>
         <h2>宿場小町の活動</h2>
