@@ -61,24 +61,26 @@
         <p>※ 例年と開催月が異なります。 </p>
         <p>保土ヶ谷駅西口より徒歩５分.</p>
     </div>
-    <div class="row">
-        <div class="ggmap">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1CktGEhCUHRPHyFe_CIAbho2T5-c" width="640" height="640"></iframe>
-        </div>
-    </div>
-    <br>
-</section>
 
 <section id="about" class="container-fluid content-section text-center event-section ">
-    <div class="row">
-        <h2>画像をタップすると新聞がダウンロードされます(4.06MB)</h2>
-    </div>
     <div class="row">
         <a href="file/30thnp.pdf" target=blank>
             <img src="images/top/30th.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
         <br>
     </div>
+    <div class="row">
+        <h2>画像をタップすると新聞がダウンロードされます(4.06MB)</h2>
+    </div>
+</section>
+
+<section id="about" class="container-fluid content-section text-center event-section ">
+    <div class="row">
+        <div class="ggmap">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1CktGEhCUHRPHyFe_CIAbho2T5-c" width="640" height="640"></iframe>
+        </div>
+    </div>
+    <br>
 </section>
 
 <section id="about" class="container-fluid content-section text-center event-section ">
@@ -121,28 +123,8 @@
     <div class="row" style="bakground-color: black">
         <h2>宿場小町</h2>
         <hr/>
-        <p>6代目宿場小町募集のお知らせ</p>
-        <p> 保土ケ谷宿場まつりでは令和元年宿場小町を募集しています。</p>
-        <p> 宿場町保土ケ谷で祭りを彩る小町になってみませんか。</p>
-
-        <div class="row">
-	        <h3>
-	            <a href="file/小町募集.pdf" target="_blank">募集要項はこちらから</a>
-	        </h3>
-    	</div>
-
-        <hr/>
-        <p>宿場小町投票開始のお知らせ</p>
-        <br>
-        <p>6代目宿場小町の投票を開始しました。</p>
-        <p>令和元年。30回目の開催となる宿場まつり。</p>
-        <p>当日参加できない方も投票という形でぜひご参加ください。</p>
+        <p>6代目宿場小町の募集・投票は終了しました。</p>
         <p>投票の結果は令和元年宿場まつりで発表いたします。</p>
-        <div class="row">
-	        <h3>
-	            <a href="https://creativesurvey.com/ng/answers/90e77f49ac5ead6a168113fd7e815b/" target="_blank">令和元年宿場小町投票サイトはこちらから</a>
-	        </h3>
-    	</div>
 
         <hr/>
         <h2>宿場小町の活動</h2>
