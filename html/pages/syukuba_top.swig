@@ -55,15 +55,6 @@
 <!-- About Section -->
 <section id="about" class="container content-section text-center ">
     <div class="row">
-        <h2>ACCESS</h2>
-        <hr/>
-        <p>2019年11月3日(日)～11月4日(祝月)</p>
-        <p>※ 例年と開催月が異なります。 </p>
-        <p>保土ヶ谷駅西口より徒歩５分.</p>
-    </div>
-
-<section id="about" class="container-fluid content-section text-center event-section ">
-    <div class="row">
         <a href="file/30thnp.pdf" target=blank>
             <img src="images/top/30th.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
@@ -72,9 +63,13 @@
     <div class="row">
         <h2>画像をタップすると新聞がダウンロードされます(4.06MB)</h2>
     </div>
-</section>
-
-<section id="about" class="container-fluid content-section text-center event-section ">
+    <div class="row">
+        <h2>ACCESS</h2>
+        <hr/>
+        <p>2019年11月3日(日)～11月4日(祝月)</p>
+        <p>※ 例年と開催月が異なります。 </p>
+        <p>保土ヶ谷駅西口より徒歩５分.</p>
+    </div>
     <div class="row">
         <div class="ggmap">
         <iframe src="https://www.google.com/maps/d/embed?mid=1CktGEhCUHRPHyFe_CIAbho2T5-c" width="640" height="640"></iframe>
