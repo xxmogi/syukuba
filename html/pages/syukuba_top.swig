@@ -62,6 +62,7 @@
     </div>
     <div class="row">
         <h2>画像をタップすると新聞がダウンロードされます(4.06MB)</h2>
+        <hr/>
     </div>
     <div class="row">
         <h2>ACCESS</h2>
