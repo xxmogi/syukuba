@@ -64,12 +64,16 @@
         <h2>画像をタップすると新聞がダウンロードされます(4.06MB)</h2>
         <hr/>
     </div>
+    <br>
+</section>
+
+<section id="about" class="container content-section text-center ">
     <div class="row">
         <h2>ACCESS</h2>
         <hr/>
         <p>2019年11月3日(日)～11月4日(祝月)</p>
-        <p>※ 例年と開催月が異なります。 </p>
-        <p>保土ヶ谷駅西口より徒歩５分.</p>
+        <p>※ 例年と開催月が異なります</p>
+        <p>保土ヶ谷駅西口より徒歩５分</p>
     </div>
     <div class="row">
         <div class="ggmap">
