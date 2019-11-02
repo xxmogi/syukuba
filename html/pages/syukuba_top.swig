@@ -149,6 +149,12 @@
         </a>
     </div>
     <br>
+    <div class="row">
+        <h3> 保土ケ谷キッズ村 </h3>
+        <a href="images/map/map_thumnail.jpg" target="blank" data-lightbox="map" data-title="イベント情報">
+            <img src="images/map/map_thumnail.jpg" class="img-responsive" style="margin: 0 auto;"/>
+        </a>
+    </div>
 </section>
 
 <section id="facebook" class="container-fluid content-section text-center">
