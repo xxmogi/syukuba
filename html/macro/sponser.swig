@@ -1,4 +1,4 @@
-{% macro item(name, url) %}
+{% macro url_name(name, url) %}
 
     <div class="col-md-3 col-sm-4 col-xs-6" style="padding-bottom: 30px">
       <h4>
