@@ -122,17 +122,10 @@
 <section id="komachi" class="container-fluid content-section text-center">
     <div class="row" style="bakground-color: black">
         <h2>宿場小町</h2>
-        <hr/>
-        <p>6代目宿場小町の募集・投票は終了しました。</p>
-        <p>投票の結果は令和元年宿場まつりで発表いたします。</p>
-
-        <hr/>
-        <h2>宿場小町の活動</h2>
-        <p>例年たくさんのご応募ありがとうございます。</p>
-        <p>今年もよろしくお願いいたします。</p>
+        <p>6代目宿場小町掲載中です。</p>
         <p>写真をクリックすると宿場小町のページに飛びます。</p>
         <a href="komachi.html">
-            <img src="images/komachi/boshu/komachi_2017.jpg" class="img-responsive" style="margin: 0 auto;"></img>
+            <img src="images/top/komachi.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
 
     </div>
@@ -149,12 +142,6 @@
         </a>
     </div>
     <br>
-    <div class="row">
-        <h3> 保土ケ谷キッズ村 </h3>
-        <a href="images/map/map_thumnail.jpg" target="blank" data-lightbox="map" data-title="イベント情報">
-            <img src="images/map/map_thumnail.jpg" class="img-responsive" style="margin: 0 auto;"/>
-        </a>
-    </div>
 </section>
 
 <section id="facebook" class="container-fluid content-section text-center">

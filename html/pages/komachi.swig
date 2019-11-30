@@ -16,6 +16,27 @@
 
 <section class="container-fluid">
 	<div class="row">
+	<h2> 2019年の宿場小町 </h2>
+	
+	<hr/>
+  	<div class="col-sm-4 col-xs-12">
+			<div class="thumbnail">
+			  <a href="images/komachi/top/komachi_201901.jpg" data-lightbox="image-1" data-title="宿場小町">
+      		<img class="img-responsive" src="images/komachi/top/komachi_201901.jpg">
+    		</a>
+				<div class="caption">
+					<h4 class="media-heading">溝川 花奈美</h4>
+					<span>
+						<!-- ここにコメント入力 -->
+					</span>
+				</div>
+			</div><!-- thumbnail -->
+  	</div><!--colmn-->
+
+</section>
+
+<section class="container-fluid">
+	<div class="row">
 	<h2> 2017年の宿場小町 </h2>
 	
 	<hr/>

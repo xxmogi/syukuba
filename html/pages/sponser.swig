@@ -4,8 +4,8 @@
 {% block meta %}
 <meta property="og:title" content="保土ヶ谷宿場まつり">
 <meta property="og:description" content="2017年 保土ヶ谷宿場まつり (開催日 2017年10/8〜9)">
-<meta property="og:url" content="http://syukuba.net/2017/syukuba_top.html">
-<meta property="og:image" content="http://syukuba.net/2017/images/top/top_img4.jpg"> 
+<meta property="og:url" content="http://syukuba.net/">
+<meta property="og:image" content="http://syukuba.net/2019/images/top/top_img4.jpg"> 
 {% endblock %} {% block content %}
 
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -34,6 +34,7 @@
 	</div>
 
   <div class="row">
+{{ sponser.url_name("ハーベスト会社","http://www.harvest-corp.co.jp/") }}
 {{ sponser.only_name("ｻﾞ･ﾌﾞﾗｯｸﾗﾌﾞ･ｶﾝﾊﾟﾆｰ(有)") }}
 {{ sponser.only_name("パスタ＆バー夏への扉") }}
 {{ sponser.only_name("花みつ") }}
