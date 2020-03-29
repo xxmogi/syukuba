@@ -55,6 +55,18 @@
 <!-- About Section -->
 <section id="about" class="container content-section text-center ">
     <div class="row">
+        <h2>2020年保土ケ谷宿場まつりの開催について</h2>
+        <hr/>
+        <p>新型コロナウイルス感染拡大の影響により</p>
+        <p>2020年の開催は未定となっております。</p>
+        <p>新しい情報が入り次第、当HPにてお知らせいたします。</p>
+        <p>何卒ご了承いただきますようお願いいたします。</p>
+    </div>
+    <br>
+</section>
+
+<section id="about" class="container content-section text-center ">
+    <div class="row">
         <a href="file/30thnp.pdf" target=blank>
             <img src="images/top/30th.jpg" class="img-responsive" style="margin: 0 auto;"></img>
         </a>
