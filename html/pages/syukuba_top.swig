@@ -3,9 +3,9 @@
 
 {% block meta %}
 <meta property="og:title" content="保土ヶ谷宿場まつり">
-<meta property="og:description" content="2019年 保土ヶ谷宿場まつり (開催日 2019年11/3〜4)">
-<meta property="og:url" content="http://syukuba.net/2019/syukuba_top.html">
-<meta property="og:image" content="http://syukuba.net/2019/images/top/top_2018.jpg">
+<meta property="og:description" content="2020年 保土ヶ谷宿場まつり (中止)">
+<meta property="og:url" content="http://syukuba.net/2020/syukuba_top.html">
+<meta property="og:image" content="http://syukuba.net/2020/images/top/top_2018.jpg">
 {% endblock %} {% block content %}
 
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -55,17 +55,18 @@
 <!-- About Section -->
 <section id="about" class="container content-section text-center ">
     <div class="row">
-        <h2>2020年保土ケ谷宿場まつりの開催について</h2>
+        <h2>第３１回保土ヶ谷宿場まつり開催中止のお知らせ</h2>
         <hr/>
-        <p>新型コロナウイルス感染拡大の影響により</p>
-        <p>2020年の開催は未定となっております。</p>
-        <p>新しい情報が入り次第、当HPにてお知らせいたします。</p>
-        <p>何卒ご了承いただきますようお願いいたします。</p>
+        <p>新型コロナウイルス感染症の拡大の終息の見通しがたたないことに鑑み</p>
+        <p>本年度の開催を中止と判断せざるをえないこととなりました。</p>
+        <p>ご参加を予定し楽しみにしていた皆様には大変申し訳ございませんが</p>
+        <p>何卒ご理解いただきますようお願いいたします。</p>
     </div>
     <br>
 </section>
 
-<section id="about" class="container content-section text-center ">
+<h2>ここから下は2019年の内容となります。</h2>
+<section id="about2" class="container content-section text-center ">
     <div class="row">
         <a href="file/30thnp.pdf" target=blank>
             <img src="images/top/30th.jpg" class="img-responsive" style="margin: 0 auto;"></img>
@@ -79,7 +80,7 @@
     <br>
 </section>
 
-<section id="about" class="container content-section text-center ">
+<section id="about3 class="container content-section text-center ">
     <div class="row">
         <h2>ACCESS</h2>
         <hr/>
@@ -95,7 +96,7 @@
     <br>
 </section>
 
-<section id="about" class="container-fluid content-section text-center event-section ">
+<section id="about4" class="container-fluid content-section text-center event-section ">
     <div class="row">
         <h2>ボランティア募集</h2>
         <hr/>
