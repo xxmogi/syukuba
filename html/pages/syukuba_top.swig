@@ -3,7 +3,7 @@
 
 {% block meta %}
 <meta property="og:title" content="保土ヶ谷宿場まつり">
-<meta property="og:description" content="2020年 保土ヶ谷宿場まつり (中止)">
+<meta property="og:description" content="2021年 保土ヶ谷宿場まつり (中止)">
 <meta property="og:url" content="http://syukuba.net/2020/syukuba_top.html">
 <meta property="og:image" content="http://syukuba.net/2020/images/top/top_2018.jpg">
 {% endblock %} {% block content %}
